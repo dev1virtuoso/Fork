@@ -1,0 +1,24 @@
+[08:23:59 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker.Write (System.String id, System.Boolean onlyFirst) (at <00000000000000000000000000000000>:0)
+SalesSystem.OnHasPurchaseChange () (at <00000000000000000000000000000000>:0)
+SFS.Variables.Obs`1[T].op_Addition (SFS.Variables.Obs`1[T] a, System.Action b) (at <00000000000000000000000000000000>:0)
+SalesSystem.LoadHasPurchases () (at <00000000000000000000000000000000>:0)
+SalesSystem.Initialize () (at <00000000000000000000000000000000>:0)
+SFS.UI.HomeManager.Start () (at <00000000000000000000000000000000>:0)
+
+[08:23:59 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker.Write (System.String id, System.Boolean onlyFirst) (at <00000000000000000000000000000000>:0)
+SalesSystem.OnHasPurchaseChange () (at <00000000000000000000000000000000>:0)
+SFS.Variables.Obs`1[T].op_Addition (SFS.Variables.Obs`1[T] a, System.Action b) (at <00000000000000000000000000000000>:0)
+SalesSystem.LoadHasPurchases () (at <00000000000000000000000000000000>:0)
+SalesSystem.Initialize () (at <00000000000000000000000000000000>:0)
+SFS.UI.HomeManager.Start () (at <00000000000000000000000000000000>:0)
+
+[08:23:59 Log]: Initializing Gaming Services
+
+[08:23:59 Log]: Initializing Gaming Services
+
+[08:23:59 Log]: Initialized Gaming Services
+
+[08:23:59 Log]: Initialized Gaming Services
+
