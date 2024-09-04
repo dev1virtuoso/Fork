@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Craft name="" parent="" initialBoundsMin="0,0,0" initialBoundsMax="0,0,0" removeInvalidParts="true" price="0" xmlVersion="15" activeCommandPod="0" localCenterOfMass="6.556511E-07,7.152558E-07,-3.57628E-07">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Package" position="0,0,0" rotation="0,0,0" preferredNodeName="Lunar Explorer-686" themeId="25a9195c-c404-4c77-9ea1-eef798ccc505" rootPart="true" materials="1,1,1,1,1" symmetryId="2d3f4908-ab88-4504-8962-0ce3cce4ddc5" mirrored="true">
+        <Drag drag="0.27054,0.27054,0.2707656,0.2707656,0.271373,0.2690985" area="0.27054,0.27054,0.2707656,0.2707656,0.271373,0.2690985" />
+        <Config initialCraftNodeId="684" symmetryId="11b034e4-0646-48d2-b9c9-855620320b39" />
+        <Package symmetryId="1bcfe09c-3852-4a3f-a3ff-565c706dc563" />
+      </Part>
+    </Parts>
+    <Connections />
+    <Collisions />
+    <Bodies>
+      <Body id="1" partIds="1" mass="1" position="0,0,0" rotation="0,0,-1.707547E-06" centerOfMass="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <DesignerSettings themeName="Custom" />
+  <Themes>
+    <Theme name="Custom" id="25a9195c-c404-4c77-9ea1-eef798ccc505">
+      <Material name="Base Color" color="FFFFFF" m="0.3" s="0" />
+      <Material name="Detail Color" color="178BFF" m="0" s="0.3" />
+      <Material name="Light Metal" color="CBCDCE" m="0.85" s="0.8" />
+      <Material name="Heavy Metal" color="76736F" m="0.85" s="0.5" />
+      <Material name="Ablative" color="000000" m="0.85" s="0" d="0.5" />
+      <Material name="Accent Color 1" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 2" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 3" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 4" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 5" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Gauge Color 1" color="000000" m="0.85" s="0" />
+      <Material name="Gauge Color 2" color="FF8000" m="0" s="0.5" e="1" />
+      <Material name="Gauge Color 3" color="FFFFFF" m="0" s="0" e="1" />
+      <Material name="Gauge Color 4" color="FF0000" m="0" s="0" e="1" />
+      <Material name="Gauge Color 5" color="68D100" m="0" s="0" e="1" />
+      <Material name="Fabric Base" color="FFFFFF" m="0" s="0" d="0.2" />
+      <Material name="Fabric Detail" color="178BFF" m="0" s="0" d="0.1" />
+      <Material name="Brushed Light Metal" color="CBCDCE" m="0.85" s="0.3" d="0.5" />
+      <Material name="Brushed Heavy Metal" color="76736F" m="0.85" s="0.3" d="0.5" />
+      <Material name="Sun Insulation" color="574204" m="0.95" s="0.95" d="0.2" />
+      <Material name="Solar Cells" color="000046" m="0.85" s="0.5" d="0.1" />
+      <Material name="Light" color="FFEEB9" m="0" s="1" />
+      <Material name="Display" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Glass Exterior" color="FFFFFF" m="1" s="1" t="0.8" />
+      <Material name="Glass Interior" color="808080" m="1" s="0" t="0.9" />
+    </Theme>
+  </Themes>
+</Craft>

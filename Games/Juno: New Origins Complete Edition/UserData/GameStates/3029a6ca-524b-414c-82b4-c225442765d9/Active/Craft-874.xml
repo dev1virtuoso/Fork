@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Craft name="SimpleCrew" parent="81c6dc98-a28f-40f9-9b98-24794eb71248" initialBoundsMin="-5.083318,-13.35107,-5.082867" initialBoundsMax="5.082729,37.82052,5.083179" removeInvalidParts="true" price="22719640" xmlVersion="15" activeCommandPod="12" localCenterOfMass="-0.0002084836,-0.2187452,-0.002258301">
+  <Assembly>
+    <Parts>
+      <Part id="12" partType="CommandPod5" position="0.0007542819,-0.002246045,0.2185002" rotation="89.98022,4.829672E-06,0" preferredNodeName="SimpleCrew" themeId="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe" activated="true" previouslyActivated="true" rootPart="true" commandPodId="12" materials="9,18,19,17,9" groupId="4ffbea3c-d484-4993-9539-b8fb69ddcd84" texture="Fuselage10" textureTiling="0.5,0.5">
+        <Drag drag="2.556694,2.554304,1.508491,0.0100219,2.527186,2.542159" area="3.476362,3.467977,3.109541,0.0100219,3.443813,3.46449" />
+        <Config centerOfMass="0,-0.1375,0" collisionDisconnectImpulse="2500" collisionExplodeImpulse="3000" heatShield="360.541382" heatShieldMass="0.9013534" heatShieldScale="1" initialCraftNodeId="874" />
+        <CommandPod activationGroupNames="Throttle Limiter,Auto Korolev,,Antennas,Docking Light,,Abort,,Solar Panels,RCS" activationGroupStates="false,false,false,false,false,false,true,false,false,false" autoRecalculateStages="false" currentStage="1" pidPitch="10,0,25" pidRoll="10,0,25" pilotSeatRotation="270,0,0" powerConsumption="60" replicateControls="true" replicateStageActivations="true" stageCalculationVersion="1">
+          <Controls />
+        </CommandPod>
+        <Gyroscope power="129.980469" powerScale="0.1" />
+        <FuelTank capacity="6485.5054687500005" fuel="6485.5054687500005" subPriority="258" />
+        <CrewCompartment crewExitPosition="3.576279E-07,1.349995,1.325001" />
+        <ScalablePod engineEnabled="true" mass="13.22005" radiusPercent="1.1" />
+        <FlightProgram timeSinceLaunch="5980.0158253277768" powerConsumptionPerInstruction="0.01" broadcastPowerConsumptionPerByte="0.1">
+          <Program name="New Program">
+            <Variables>
+              <Variable name="MinThrottle" number="0" />
+              <Variable name="MaxThrottle" number="0" />
+              <Variable name="ThrottleLimiterAG" number="0" />
+              <Variable name="ThrottleLimit" number="0" />
+              <Variable name="ThrottleLimitValue" number="0" />
+            </Variables>
+            <Instructions>
+              <Event event="PartExplode" id="0" style="part-explode" pos="-688.9056,1042.78" />
+              <Comment id="1" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Detects when part has exploded, and initiates the abort." />
+              </Comment>
+              <SetActivationGroup id="2" style="set-ag">
+                <Constant text="7" />
+                <Constant style="true" bool="true" />
+              </SetActivationGroup>
+            </Instructions>
+            <Instructions>
+              <Event event="FlightStart" id="3" style="flight-start" pos="426.2478,1038.502" />
+              <Comment id="4" style="comment">
+                <Constant style="comment-text" canReplace="false" text="This sets the activation group we want to use enable the throttle limiter." />
+              </Comment>
+              <SetVariable id="5" style="set-variable">
+                <Variable list="false" local="false" variableName="ThrottleLimiterAG" />
+                <Constant text="1" />
+              </SetVariable>
+              <Comment id="6" style="comment">
+                <Constant style="comment-text" canReplace="false" text="This sets the minimum range for the throttle input on the limiter." />
+              </Comment>
+              <SetVariable id="7" style="set-variable">
+                <Variable list="false" local="false" variableName="MinThrottle" />
+                <Constant text=".6" />
+              </SetVariable>
+              <Comment id="8" style="comment">
+                <Constant style="comment-text" canReplace="false" text="This sets the max thrust to weight ratio we want to experience in flight." />
+              </Comment>
+              <SetVariable id="9" style="set-variable">
+                <Variable list="false" local="false" variableName="ThrottleLimit" />
+                <Constant text="2.5" />
+              </SetVariable>
+              <While id="10" style="while">
+                <Constant style="true" bool="true" />
+                <Instructions>
+                  <If id="11" style="if">
+                    <BoolOp op="and" style="op-and">
+                      <ActivationGroup style="activation-group">
+                        <Variable list="false" local="false" variableName="ThrottleLimiterAG" />
+                      </ActivationGroup>
+                      <Comparison op="g" style="op-gt">
+                        <CraftProperty property="Performance.TWR" style="prop-performance" />
+                        <Constant text="0" />
+                      </Comparison>
+                    </BoolOp>
+                    <Instructions>
+                      <Comment id="12" style="comment">
+                        <Constant style="comment-text" canReplace="false" text="This function takes into account the planet's current gravity, the crafts max thrust to mass ratio, and calculates the value that will keep the craft's TWR at ThrottleLimit. " />
+                      </Comment>
+                      <Comment id="13" style="comment">
+                        <Constant style="comment-text" canReplace="false" text="It also takes into account the minimum value we want this to set the throttle to using MinThrottle. If the value provided by the equation is greater than it, it will use the MinThrottle value." />
+                      </Comment>
+                      <SetInput input="throttle" id="14" style="set-input">
+                        <BinaryOp op="min" style="op-min">
+                          <BinaryOp op="max" style="op-max">
+                            <Variable list="false" local="false" variableName="MinThrottle" />
+                            <BinaryOp op="/" style="op-div">
+                              <BinaryOp op="*" style="op-mul">
+                                <VectorOp op="length" style="vec-op-1">
+                                  <CraftProperty property="Vel.Gravity" style="prop-velocity" />
+                                </VectorOp>
+                                <Variable list="false" local="false" variableName="ThrottleLimit" />
+                              </BinaryOp>
+                              <BinaryOp op="/" style="op-div">
+                                <CraftProperty property="Performance.MaxActiveEngineThrust" style="prop-performance" />
+                                <CraftProperty property="Performance.Mass" style="prop-performance" />
+                              </BinaryOp>
+                            </BinaryOp>
+                          </BinaryOp>
+                          <CraftProperty property="Input.Throttle" style="prop-input" />
+                        </BinaryOp>
+                      </SetInput>
+                    </Instructions>
+                  </If>
+                  <WaitSeconds id="15" style="wait-seconds">
+                    <Constant text="0" />
+                  </WaitSeconds>
+                </Instructions>
+              </While>
+            </Instructions>
+            <Instructions>
+              <Event event="FlightStart" id="16" style="flight-start" pos="432.0063,432.8582" />
+              <While id="17" style="while">
+                <Constant style="true" bool="true" />
+                <Instructions>
+                  <Comment id="18" style="comment">
+                    <Constant style="comment-text" canReplace="false" text="This makes sure the activation group for the Korolev Cross is activated." />
+                  </Comment>
+                  <While id="19" style="while">
+                    <ActivationGroup style="activation-group">
+                      <Constant text="2" />
+                    </ActivationGroup>
+                    <Instructions>
+                      <Comment id="20" style="comment">
+                        <Constant style="comment-text" canReplace="false" text="Verifies that the craft has not already staged through the Korolev Cross." />
+                      </Comment>
+                      <If id="21" style="if">
+                        <Comparison op="l" style="op-lt">
+                          <CraftProperty property="Misc.Stage" style="prop-misc" />
+                          <Constant text="3" />
+                        </Comparison>
+                        <Instructions>
+                          <Comment id="22" style="comment">
+                            <Constant style="comment-text" canReplace="false" text="Checks when the part's mass is lower than 800kg." />
+                          </Comment>
+                          <WaitUntil id="23" style="wait-until">
+                            <Comparison op="l" style="op-lt">
+                              <CraftProperty property="Part.Mass" style="part">
+                                <CraftProperty property="Part.NameToID" style="part-id">
+                                  <Constant text="Engine Shroud " />
+                                </CraftProperty>
+                              </CraftProperty>
+                              <Constant text="850" />
+                            </Comparison>
+                          </WaitUntil>
+                          <Comment id="24" style="comment">
+                            <Constant style="comment-text" canReplace="false" text="Checks if the craft is not aborting" />
+                          </Comment>
+                          <If id="25" style="if">
+                            <Not style="op-not">
+                              <ActivationGroup style="activation-group">
+                                <Constant text="7" />
+                              </ActivationGroup>
+                            </Not>
+                            <Instructions>
+                              <Comment id="26" style="comment">
+                                <Constant style="comment-text" canReplace="false" text="Displays that the Korolev Cross is happening, so the player isn't confused." />
+                              </Comment>
+                              <DisplayMessage id="27" style="display">
+                                <Constant text="&lt;size=200%&gt;&lt;b&gt;Korolev Cross&lt;/b&gt;&lt;/size&gt;" />
+                                <Constant number="7" />
+                              </DisplayMessage>
+                              <Comment id="28" style="comment">
+                                <Constant style="comment-text" canReplace="false" text="Disables the throttle limiter, and increases the throttle." />
+                              </Comment>
+                              <SetActivationGroup id="29" style="set-ag">
+                                <Variable list="false" local="false" variableName="ThrottleLimiterAG" />
+                                <Constant style="false" bool="false" />
+                              </SetActivationGroup>
+                              <SetInput input="throttle" id="30" style="set-input">
+                                <Constant text="1" />
+                              </SetInput>
+                              <Comment id="31" style="comment">
+                                <Constant style="comment-text" canReplace="false" text="Checks when the part's mass is lower than 300kg." />
+                              </Comment>
+                              <WaitUntil id="32" style="wait-until">
+                                <Comparison op="l" style="op-lt">
+                                  <CraftProperty property="Part.Mass" style="part">
+                                    <CraftProperty property="Part.NameToID" style="part-id">
+                                      <Constant text="Engine Shroud " />
+                                    </CraftProperty>
+                                  </CraftProperty>
+                                  <Constant text="300" />
+                                </Comparison>
+                              </WaitUntil>
+                              <Comment id="33" style="comment">
+                                <Constant style="comment-text" canReplace="false" text="Activates the staging in sequence for the Korolev Cross." />
+                              </Comment>
+                              <ActivateStage id="34" style="activate-stage" />
+                              <WaitUntil id="35" style="wait-until">
+                                <Comparison op="l" style="op-lt">
+                                  <CraftProperty property="Part.Mass" style="part">
+                                    <CraftProperty property="Part.NameToID" style="part-id">
+                                      <Constant text="Engine Shroud " />
+                                    </CraftProperty>
+                                  </CraftProperty>
+                                  <Constant text="280" />
+                                </Comparison>
+                              </WaitUntil>
+                              <WaitSeconds id="36" style="wait-seconds">
+                                <Constant text=".5" />
+                              </WaitSeconds>
+                              <ActivateStage id="37" style="activate-stage" />
+                              <Comment id="38" style="comment">
+                                <Constant style="comment-text" canReplace="false" text="Disables the activation group for the Korolev Cross. " />
+                              </Comment>
+                              <SetActivationGroup id="39" style="set-ag">
+                                <Constant text="2" />
+                                <Constant style="false" bool="false" />
+                              </SetActivationGroup>
+                              <Comment id="40" style="comment">
+                                <Constant style="comment-text" canReplace="false" text="Enables the throttle limiter." />
+                              </Comment>
+                              <SetActivationGroup id="41" style="set-ag">
+                                <Variable list="false" local="false" variableName="ThrottleLimiterAG" />
+                                <Constant style="true" bool="true" />
+                              </SetActivationGroup>
+                            </Instructions>
+                          </If>
+                        </Instructions>
+                      </If>
+                      <ElseIf id="42" style="else">
+                        <Constant bool="true" />
+                        <Instructions>
+                          <Comment id="43" style="comment">
+                            <Constant style="comment-text" canReplace="false" text="Displays that the Korolev Cross cannot be initiated, and deactivates the activation group." />
+                          </Comment>
+                          <DisplayMessage id="44" style="display">
+                            <Constant text="&lt;size=200%&gt;&lt;b&gt;Unable to initiate Korolev Cross&lt;/b&gt;&lt;/size&gt;" />
+                            <Constant number="7" />
+                          </DisplayMessage>
+                          <SetActivationGroup id="45" style="set-ag">
+                            <Constant text="2" />
+                            <Constant style="false" bool="false" />
+                          </SetActivationGroup>
+                        </Instructions>
+                      </ElseIf>
+                    </Instructions>
+                  </While>
+                  <WaitSeconds id="46" style="wait-seconds">
+                    <Constant text="0" />
+                  </WaitSeconds>
+                </Instructions>
+              </While>
+            </Instructions>
+            <Instructions>
+              <Event event="FlightStart" id="47" style="flight-start" pos="-683.9605,875.5181" />
+              <Comment id="48" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Waits until an abort is triggered, or the SAS is jettisoned." />
+              </Comment>
+              <WaitUntil id="49" style="wait-until">
+                <BoolOp op="or" style="op-or">
+                  <ActivationGroup style="activation-group">
+                    <Constant text="7" />
+                  </ActivationGroup>
+                  <Comparison op="g" style="op-gt">
+                    <CraftProperty property="Misc.Stage" style="prop-misc" />
+                    <Constant text="3" />
+                  </Comparison>
+                </BoolOp>
+              </WaitUntil>
+              <Comment id="50" style="comment">
+                <Constant style="comment-text" canReplace="false" text="If an abort is not triggered, then the SAS must have been jettisoned. So, the abort is disarmed." />
+              </Comment>
+              <If id="51" style="if">
+                <Not style="op-not">
+                  <ActivationGroup style="activation-group">
+                    <Constant text="7" />
+                  </ActivationGroup>
+                </Not>
+                <Instructions>
+                  <DisplayMessage id="52" style="display">
+                    <Constant text="&lt;size=200%&gt;&lt;b&gt;Abort disarmed&lt;/b&gt;&lt;/size&gt;" />
+                    <Constant number="7" />
+                  </DisplayMessage>
+                </Instructions>
+              </If>
+              <Comment id="53" style="comment">
+                <Constant style="comment-text" canReplace="false" text="If an abort is triggered, and the craft is not in orbit, then the abort will occur." />
+              </Comment>
+              <ElseIf id="54" style="else-if">
+                <Comparison op="le" style="op-lte">
+                  <CraftProperty property="Orbit.Periapsis" style="prop-orbit" />
+                  <Constant text="80000" />
+                </Comparison>
+                <Instructions>
+                  <Comment id="55" style="comment">
+                    <Constant style="comment-text" canReplace="false" text="Initiates the abort." />
+                  </Comment>
+                  <CallCustomInstruction call="SAS Sequence" id="56" style="call-custom-instruction" />
+                </Instructions>
+              </ElseIf>
+            </Instructions>
+            <Instructions>
+              <CustomInstruction callFormat="SAS Sequence" format="SAS Sequence" name="SAS Sequence" id="57" style="custom-instruction" pos="-686.7407,397.3588" />
+              <Comment id="58" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Displays that an abort has been triggered" />
+              </Comment>
+              <Comment id="59" style="comment">
+                <Constant style="comment-text" canReplace="false" text="This block uses Rich Text Formatting, here is a link to a guide for it:" />
+              </Comment>
+              <Comment id="60" style="comment">
+                <Constant style="comment-text" canReplace="false" text="http://digitalnativestudios.com/textmeshpro/docs/rich-text/" />
+              </Comment>
+              <DisplayMessage id="61" style="display">
+                <Constant text="&lt;size=200%&gt;&lt;b&gt;Abort Triggered&lt;/b&gt;&lt;/size&gt;" />
+                <Constant number="7" />
+              </DisplayMessage>
+              <Comment id="62" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Throttles down any active engines" />
+              </Comment>
+              <SetInput input="throttle" id="63" style="set-input">
+                <Constant number="0" />
+              </SetInput>
+              <Comment id="64" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Disables the Korolev Cross and the throttle limiter." />
+              </Comment>
+              <SetActivationGroup id="65" style="set-ag">
+                <Constant text="2" />
+                <Constant style="false" bool="false" />
+              </SetActivationGroup>
+              <SetActivationGroup id="66" style="set-ag">
+                <Variable list="false" local="false" variableName="ThrottleLimiterAG" />
+                <Constant style="false" bool="false" />
+              </SetActivationGroup>
+              <Comment id="67" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Activates the abort motors, deploys the grid fins, and locks heading" />
+              </Comment>
+              <For var="i" id="68" style="for">
+                <Constant number="1" />
+                <Constant text="4" />
+                <Constant number="1" />
+                <Instructions>
+                  <SetCraftProperty property="Part.SetActivated" id="69" style="set-part">
+                    <CraftProperty property="Part.NameToID" style="part-id">
+                      <StringOp op="join" style="join">
+                        <Constant text="Launch Escape Motor " />
+                        <Variable list="false" local="true" variableName="i" />
+                        <Constant text="" />
+                      </StringOp>
+                    </CraftProperty>
+                    <Constant style="true" bool="true" />
+                  </SetCraftProperty>
+                </Instructions>
+              </For>
+              <For var="i" id="70" style="for">
+                <Constant number="1" />
+                <Constant text="4" />
+                <Constant number="1" />
+                <Instructions>
+                  <SetCraftProperty property="Part.SetActivated" id="71" style="set-part">
+                    <CraftProperty property="Part.NameToID" style="part-id">
+                      <StringOp op="join" style="join">
+                        <Constant text="Abort Grid Fin " />
+                        <Variable list="false" local="true" variableName="i" />
+                        <Constant text=" Base" />
+                        <Constant text="" />
+                      </StringOp>
+                    </CraftProperty>
+                    <Constant style="true" bool="true" />
+                  </SetCraftProperty>
+                </Instructions>
+              </For>
+              <SetTargetHeading property="pitch" id="72" style="set-heading">
+                <Constant text="45" />
+              </SetTargetHeading>
+              <WaitSeconds id="73" style="wait-seconds">
+                <Constant text="1" />
+              </WaitSeconds>
+              <Comment id="74" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Activates the capsule separator" />
+              </Comment>
+              <SetCraftProperty property="Part.SetActivated" id="75" style="set-part">
+                <CraftProperty property="Part.NameToID" style="part-id">
+                  <Constant text="Vroz Crew Module Interstage" />
+                </CraftProperty>
+                <Constant style="true" bool="true" />
+              </SetCraftProperty>
+              <Comment id="76" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Waits till the abort motors have burnt out" />
+              </Comment>
+              <WaitUntil id="77" style="wait-until">
+                <Comparison op="l" style="op-lt">
+                  <CraftProperty property="Fuel.FuelInStage" style="prop-fuel" />
+                  <Constant text=".1" />
+                </Comparison>
+              </WaitUntil>
+              <Comment id="78" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Separates the abort tower from the capsule" />
+              </Comment>
+              <SetCraftProperty property="Part.SetActivated" id="79" style="set-part">
+                <CraftProperty property="Part.NameToID" style="part-id">
+                  <Constant text="Vroz Orbital Module Interstage" />
+                </CraftProperty>
+                <Constant style="true" bool="true" />
+              </SetCraftProperty>
+              <WaitSeconds id="80" style="wait-seconds">
+                <Constant text="3" />
+              </WaitSeconds>
+              <LockNavSphere indicatorType="Retrograde" id="81" style="lock-nav-sphere" />
+              <Comment id="82" style="comment">
+                <Constant style="comment-text" canReplace="false" text="Arms the capsule parachute when falling" />
+              </Comment>
+              <WaitUntil id="83" style="wait-until">
+                <Comparison op="l" style="op-lt">
+                  <CraftProperty property="Vel.VerticalSurfaceVelocity" style="prop-velocity" />
+                  <Constant text="0" />
+                </Comparison>
+              </WaitUntil>
+              <SetCraftProperty property="Part.SetActivated" id="84" style="set-part">
+                <CraftProperty property="Part.NameToID" style="part-id">
+                  <Constant text="Drogue Chute 1" />
+                </CraftProperty>
+                <Constant style="true" bool="true" />
+              </SetCraftProperty>
+              <SetCraftProperty property="Part.SetActivated" id="85" style="set-part">
+                <CraftProperty property="Part.NameToID" style="part-id">
+                  <Constant text="Drogue Chute 2" />
+                </CraftProperty>
+                <Constant style="true" bool="true" />
+              </SetCraftProperty>
+              <SetCraftProperty property="Part.SetActivated" id="86" style="set-part">
+                <CraftProperty property="Part.NameToID" style="part-id">
+                  <Constant text="Main Parachute" />
+                </CraftProperty>
+                <Constant style="true" bool="true" />
+              </SetCraftProperty>
+            </Instructions>
+            <Expressions />
+          </Program>
+          <Process>
+            <Variables>
+              <Variable name="MinThrottle" text=".6" />
+              <Variable name="MaxThrottle" number="0" />
+              <Variable name="ThrottleLimiterAG" text="1" />
+              <Variable name="ThrottleLimit" text="2.5" />
+              <Variable name="ThrottleLimitValue" number="0" />
+            </Variables>
+            <Thread nextInstruction="10">
+              <CallStack>
+                <StackFrame>
+                  <Variables />
+                </StackFrame>
+              </CallStack>
+            </Thread>
+            <Thread nextInstruction="17">
+              <CallStack>
+                <StackFrame>
+                  <Variables />
+                </StackFrame>
+              </CallStack>
+            </Thread>
+          </Process>
+        </FlightProgram>
+      </Part>
+      <Part id="15" partType="HeatShield1" position="0.000131771,0.003783911,-0.7976951" rotation="89.76261,179.9956,-0.00437768" name="Vroz Heat Shield" themeId="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe" commandPodId="12" materials="4,4,4,4,4" groupId="4ffbea3c-d484-4993-9539-b8fb69ddcd84">
+        <Drag drag="0.1454028,0.1369308,0.01503284,3.523661,0.1390552,0.1382961" area="0.3641388,0.362941,0.01503284,3.758035,0.3585966,0.3585966" />
+        <Config centerOfMass="-1.134554E-07,-0.02884337,-5.232572E-08" heatShield="2756.039" heatShieldBaseScale="17.68" heatShieldMass="6.89009762" heatShieldScale="0.5" initialCraftNodeId="874" />
+        <Fuselage bottomScale="1.1,1.1" deadWeightPercentage="0" deformations="0,0,0" depthCurve="0" offset="6.354848E-24,0.1,3.552723E-15" shellDensityOverride="-1" topScale="0.2,0.2" volume="0.5256138" volumeInner="0.486361444" version="3" />
+      </Part>
+      <Part id="478" partType="Detacher1" position="-0.0004475359,-0.007738292,1.185451" rotation="270,180,0" name="Vroz Orbital Module Interstage" themeId="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe" activated="true" previouslyActivated="true" activationStage="9" stageOverride="true" commandPodId="12" materials="9,9,9,9,9" groupId="104b59b4-2854-427d-896c-feed0b416506" style="Interstage-4">
+        <Drag drag="0.05447124,0.06259074,0.5560401,0,0.05811472,0.05824002" area="0.08025555,0.084448,0.5602869,0,0.08299402,0.08299402" />
+        <AttachPoints>
+          <AttachPoint id="0" position="1.534732E-15,-0.05399895,1.829548E-22" rotation="90,0,0" scale="0.888" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="false" ignoreSurfaces="true" allowRotation="false" jointType="Fused" connectionType="Shell" crewTraversable="false" />
+        </AttachPoints>
+        <Config autoActivateIfNoStageOrActivationGroup="false" centerOfMass="-4.102681E-09,-0.0001083507,1.850034E-08" heatShieldScale="0" initialCraftNodeId="874" />
+        <Fuselage bottomScale="0.444,0.444" deadWeightPercentage="-10" deformations="0,0,0" depthCurve="0" meshMassMultiplier="0.3" offset="-1.534732E-15,0.05399895,-1.829548E-22" shellDensityOverride="-1" topScale="0.442,0.442" volume="0.06582654" volumeInner="0.0582323559" version="3" />
+        <Detacher version="2" />
+        <CoverEngine />
+        <CrossFeed />
+      </Part>
+      <Part id="505" partType="Parachute1" position="0.007046461,0.01331231,0.8932042" rotation="89.98022,-1.086676E-05,0" name="Main Parachute" themeId="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe" previouslyActivated="true" activationStage="10" stageOverride="true" commandPodId="12" materials="15,7,7,15,15" groupId="4ffbea3c-d484-4993-9539-b8fb69ddcd84">
+        <Drag drag="0.0008757219,0.0009034906,0.0008616846,0,0.0008765505,0.0009198749" area="0.003242585,0.003353443,0.000884996,0,0.003215476,0.003303975" />
+        <Config heatShieldScale="0" initialCraftNodeId="874" />
+        <Parachute autocutASL="-0" baseSize="0.8" chuteHeight="0.75" chuteRadius="10" cordLength="10" deploymentASL="2440.87964" deploymentDensity="0.75" inflationASL="1479.32581" inflationDensity="0.840000033" referenceDensity="1.2" />
+      </Part>
+      <Part id="506" partType="Parachute1" position="0.5626045,0.01306656,0.9905647" rotation="359.815,119.9996,90.3204" name="Drogue Chute 1" themeId="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe" previouslyActivated="true" activationStage="10" stageOverride="true" commandPodId="12" materials="15,7,7,15,15" groupId="cc3612ac-bfca-486b-bb5e-93cf9891aaa5" baseStyle="Small">
+        <Drag drag="0.007679793,0.008985491,0.0166852,0,0,0.009555658" area="0.0102877,0.01178222,0.02023913,0,0,0.01769927" />
+        <Config heatShieldScale="0" initialCraftNodeId="874" symmetryId="0b5a0036-8d30-4785-925d-acd5b7b96d1c" />
+        <Parachute autocutASL="2440.87964" autocutDensity="0.75" baseSize="0.5" chuteHeight="1" chuteRadius="3.0666666" cordLength="5.638158" deploymentASL="12846.832" deploymentDensity="0.220000014" inflationASL="3920.20581" inflationDensity="0.63" maxDeploymentSpeed="2320" referenceDensity="1.2" symmetryId="c33c8f6a-30c4-4c4e-b742-575f64874421" />
+      </Part>
+      <Part id="542" partType="Eva" position="0.009223538,0.003207341,0.09768558" rotation="89.98022,-5.433381E-05,0" name="CosmoDrood" themeId="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe" commandPodId="542" materials="15,15,15,16,19" groupId="4ffbea3c-d484-4993-9539-b8fb69ddcd84">
+        <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+        <Config heatShieldScale="0" initialCraftNodeId="874" />
+        <CommandPod activationGroupNames=",,,,,,,Landing Gear,Solar Panels,RCS" activationGroupStates="false,false,false,false,false,false,false,true,false,true" pidPitch="10,0,0" pidRoll="0.6,0,0" pilotSeatRotation="-1.692939E-06,0,0">
+          <Controls />
+        </CommandPod>
+        <Eva crewName="Unassigned" />
+        <CameraVantage autoCenterCamera="false" nightVisionColor="#80FF8080" />
+        <FuelTank />
+      </Part>
+      <Part id="543" partType="Eva" position="0.009223538,0.003207341,0.09768558" rotation="89.98022,-5.433381E-05,0" name="CosmoDrood" themeId="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe" commandPodId="543" materials="15,15,15,16,19" groupId="177bc51d-f547-409d-aeb2-8f02cad45ff2">
+        <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+        <Config heatShieldScale="0" initialCraftNodeId="874" />
+        <CommandPod activationGroupNames=",,,,,,,Landing Gear,Solar Panels,RCS" activationGroupStates="false,false,false,false,false,false,false,true,false,true" pidPitch="10,0,0" pidRoll="0.6,0,0" pilotSeatRotation="-1.692939E-06,0,0">
+          <Controls />
+        </CommandPod>
+        <Eva crewName="Unassigned" />
+        <CameraVantage autoCenterCamera="false" nightVisionColor="#80FF8080" />
+        <FuelTank />
+      </Part>
+      <Part id="771" partType="Eva" position="0.009223538,0.003207341,0.09768558" rotation="89.98022,-5.433381E-05,0" name="CosmoDrood" themeId="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe" commandPodId="771" materials="15,15,15,16,19">
+        <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+        <Config heatShieldScale="0" initialCraftNodeId="874" />
+        <CommandPod activationGroupNames=",,,,,,,Landing Gear,Solar Panels,RCS" activationGroupStates="false,false,false,false,false,false,false,true,false,true" pidPitch="10,0,0" pidRoll="0.6,0,0" pilotSeatRotation="-1.692939E-06,0,0">
+          <Controls />
+        </CommandPod>
+        <Eva crewName="Unassigned" />
+        <CameraVantage autoCenterCamera="false" nightVisionColor="#80FF8080" />
+        <FuelTank />
+      </Part>
+      <Part id="1321" partType="Parachute1" position="-0.557606,0.02640402,0.9984905" rotation="359.8251,240.0002,269.6976" name="Drogue Chute 2" themeId="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe" previouslyActivated="true" activationStage="10" stageOverride="true" commandPodId="12" materials="15,7,7,15,15" groupId="33fe6481-bcc1-4bf4-81da-ac2064d8a9b5" mirrored="true" baseStyle="Small">
+        <Drag drag="0.007858357,0.009177507,0.01699723,0,0.02311123,0" area="0.0104897,0.01203285,0.02062077,0,0.03878664,0" />
+        <Config heatShieldScale="0" initialCraftNodeId="874" symmetryId="0b5a0036-8d30-4785-925d-acd5b7b96d1c" />
+        <Parachute autocutASL="2440.87964" autocutDensity="0.75" baseSize="0.5" chuteHeight="1" chuteRadius="3.0666666" cordLength="5.638158" deploymentASL="12846.832" deploymentDensity="0.220000014" inflationASL="3920.20581" inflationDensity="0.63" maxDeploymentSpeed="2320" referenceDensity="1.2" symmetryId="c33c8f6a-30c4-4c4e-b742-575f64874421" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="15" partB="12" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="505" partB="12" attachPointsA="0" attachPointsB="4">
+        <BodyJoint body="1" connectedBody="14" connectedBodyNeutralPosition="-3.9523E-08,1.14469,1.634035E-07" connectedBodyNeutralRotation="0,0,0" breakTorque="1E+07" breakForce="0" jointType="Normal" position="-3.946479E-08,1.14469,1.63418E-07" connectedPosition="0,0,0" axis="0,0,1" secondaryAxis="0,1,0" />
+      </Connection>
+      <Connection partA="506" partB="12" attachPointsA="0" attachPointsB="4" symmetryId="b40858c9-9303-4faa-b0db-aa142b82dfdd">
+        <BodyJoint body="1" connectedBody="15" connectedBodyNeutralPosition="0.5546814,1.213709,-1.539593E-08" connectedBodyNeutralRotation="0,0,0" breakTorque="1E+07" breakForce="0" jointType="Normal" position="0.5546814,1.213709,-1.538137E-08" connectedPosition="0,0,0" axis="0,0,1" secondaryAxis="0,1,0" />
+      </Connection>
+      <Connection partA="543" partB="12" attachPointsA="0" attachPointsB="3">
+        <BodyJoint body="17" connectedBody="1" connectedBodyNeutralPosition="3.9523E-08,-0.29916,-9.970972E-08" connectedBodyNeutralRotation="0,0,0" breakTorque="1E+07" breakForce="0" jointType="Normal" position="0,0,1.455192E-11" connectedPosition="-3.946479E-08,0.2991581,9.976793E-08" axis="-8.742278E-08,2.954736E-08,-1" secondaryAxis="0,1,2.954736E-08" />
+      </Connection>
+      <Connection partA="771" partB="12" attachPointsA="0" attachPointsB="3">
+        <BodyJoint body="21" connectedBody="1" connectedBodyNeutralPosition="3.9523E-08,-0.29916,-9.970972E-08" connectedBodyNeutralRotation="0,0,0" breakTorque="1E+07" breakForce="0" jointType="Normal" position="0,0,1.455192E-11" connectedPosition="-3.946479E-08,0.2991581,9.976793E-08" axis="-8.742278E-08,2.954736E-08,-1" secondaryAxis="0,1,2.954736E-08" />
+      </Connection>
+      <Connection partA="542" partB="12" attachPointsA="0" attachPointsB="3">
+        <BodyJoint body="16" connectedBody="1" connectedBodyNeutralPosition="3.9523E-08,-0.29916,-9.970972E-08" connectedBodyNeutralRotation="0,0,0" breakTorque="1E+07" breakForce="0" jointType="Normal" position="0,0,1.455192E-11" connectedPosition="-3.946479E-08,0.2991581,9.976793E-08" axis="-8.742278E-08,2.954736E-08,-1" secondaryAxis="0,1,2.954736E-08" />
+      </Connection>
+      <Connection partA="1321" partB="12" attachPointsA="0" attachPointsB="4" symmetryId="b40858c9-9303-4faa-b0db-aa142b82dfdd">
+        <BodyJoint body="1" connectedBody="23" connectedBodyNeutralPosition="-0.5546815,1.213709,-1.539593E-08" connectedBodyNeutralRotation="0,0,0" breakTorque="1E+07" breakForce="0" jointType="Normal" position="-0.5546815,1.213709,-1.538137E-08" connectedPosition="0,0,0" axis="0,0,1" secondaryAxis="0,1,0" />
+      </Connection>
+      <Connection partA="478" partB="12" attachPointsA="1" attachPointsB="1" />
+    </Connections>
+    <Collisions>
+      <Collision partA="12" partB="505" />
+      <Collision partA="478" partB="505" />
+      <Collision partA="12" partB="506" />
+      <Collision partA="478" partB="506" />
+      <Collision partA="12" partB="1321" />
+      <Collision partA="478" partB="1321" />
+    </Collisions>
+    <Bodies>
+      <Body id="1" partIds="12,15,478" mass="22.140192" position="-8.322019E-05,0.0009157211,-0.2184869" rotation="90,-1.811127E-05,0" centerOfMass="0.0004031805,0.0008474741,0.001882784" />
+      <Body id="14" partIds="505" mass="3.84640026" position="0.007046461,0.01331231,0.8932042" rotation="90,-2.294095E-05,0" centerOfMass="0,0,0" />
+      <Body id="15" partIds="506" mass="0.493055522" position="0.5626045,0.01306656,0.9905647" rotation="90,-4.346706E-05,0" centerOfMass="0,0,0" />
+      <Body id="16" partIds="542" mass="1.16126" position="0.009223538,0.003207341,0.09768558" rotation="90,-3.139287E-05,0" centerOfMass="0,0,0" />
+      <Body id="17" partIds="543" mass="1.16126" position="0.009223538,0.003207341,0.09768558" rotation="90,-3.139287E-05,0" centerOfMass="0,0,0" />
+      <Body id="21" partIds="771" mass="1.16126" position="0.009223538,0.003207341,0.09768558" rotation="90,-3.139287E-05,0" centerOfMass="0,0,0" />
+      <Body id="23" partIds="1321" mass="0.493055522" position="-0.557606,0.02640402,0.9984905" rotation="90,-3.139287E-05,0" centerOfMass="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <DesignerSettings themeName="Custom" userStages="0,1,2,3,4,5,6,7,8,9,10">
+    <Theme name="Custom" id="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe">
+      <Material name="Base Color" color="FFFFFF" m="0.2" s="0.6" d="0.1" />
+      <Material name="Detail Color" color="001E8D" m="0.1" s="0.6" d="0.3" />
+      <Material name="Light Metal" color="CBCDCE" m="0.85" s="0.8" />
+      <Material name="Heavy Metal" color="76736F" m="0.85" s="0.5" />
+      <Material name="Ablative" color="000000" m="0.85" s="0" d="0.5" />
+      <Material name="Accent Color 1" color="FFFFFF" m="0.1" s="0.08" d="0.1" />
+      <Material name="Accent Color 2" color="8B8B8B" m="0" s="0.1" d="0.2" />
+      <Material name="Accent Color 3" color="FD692A" m="0" s="0" d="0.3" />
+      <Material name="Accent Color 4" color="EDD89C" m="1" s="0.1" d="0" />
+      <Material name="Accent Color 5" color="484C48" m="0.6" s="0.1" d="0.4" />
+      <Material name="Gauge Color 1" color="000000" m="0.85" s="0" />
+      <Material name="Gauge Color 2" color="FF8000" m="0" s="0.5" e="1" />
+      <Material name="Gauge Color 3" color="FFFFFF" m="0" s="0" e="1" />
+      <Material name="Gauge Color 4" color="FF0000" m="0" s="0" e="1" />
+      <Material name="Gauge Color 5" color="68D100" m="0" s="0" e="1" />
+      <Material name="Fabric Base" color="FFFFFF" m="0" s="0" d="0.3" />
+      <Material name="Fabric Detail" color="178BFF" m="0" s="0" d="0.1" />
+      <Material name="Brushed Light Metal" color="CBCDCE" m="0.85" s="0.3" d="0.5" />
+      <Material name="Brushed Heavy Metal" color="76736F" m="0.85" s="0.3" d="0.5" />
+      <Material name="Sun Insulation" color="574204" m="0.95" s="0.95" d="0.2" />
+      <Material name="Solar Cells" color="0B0B64" m="1" s="0.3" d="0.3" />
+      <Material name="Light" color="FFEEB9" m="0" s="1" />
+      <Material name="Display" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Glass Exterior" color="FFFFFF" m="1" s="1" t="0.8" />
+      <Material name="Glass Interior" color="808080" m="1" s="0" t="0.22" />
+    </Theme>
+  </DesignerSettings>
+  <Themes>
+    <Theme name="Custom" id="f8f92fd5-95a9-4ad2-8ba2-2fe15950ecbe">
+      <Material name="Base Color" color="FFFFFF" m="0.2" s="0.6" d="0.1" />
+      <Material name="Detail Color" color="001E8D" m="0.1" s="0.6" d="0.3" />
+      <Material name="Light Metal" color="CBCDCE" m="0.85" s="0.8" />
+      <Material name="Heavy Metal" color="76736F" m="0.85" s="0.5" />
+      <Material name="Ablative" color="000000" m="0.85" s="0" d="0.5" />
+      <Material name="Accent Color 1" color="FFFFFF" m="0.1" s="0.08" d="0.1" />
+      <Material name="Accent Color 2" color="8B8B8B" m="0" s="0.1" d="0.2" />
+      <Material name="Accent Color 3" color="FD692A" m="0" s="0" d="0.3" />
+      <Material name="Accent Color 4" color="EDD89C" m="1" s="0.1" d="0" />
+      <Material name="Accent Color 5" color="484C48" m="0.6" s="0.1" d="0.4" />
+      <Material name="Gauge Color 1" color="000000" m="0.85" s="0" />
+      <Material name="Gauge Color 2" color="FF8000" m="0" s="0.5" e="1" />
+      <Material name="Gauge Color 3" color="FFFFFF" m="0" s="0" e="1" />
+      <Material name="Gauge Color 4" color="FF0000" m="0" s="0" e="1" />
+      <Material name="Gauge Color 5" color="68D100" m="0" s="0" e="1" />
+      <Material name="Fabric Base" color="FFFFFF" m="0" s="0" d="0.3" />
+      <Material name="Fabric Detail" color="178BFF" m="0" s="0" d="0.1" />
+      <Material name="Brushed Light Metal" color="CBCDCE" m="0.85" s="0.3" d="0.5" />
+      <Material name="Brushed Heavy Metal" color="76736F" m="0.85" s="0.3" d="0.5" />
+      <Material name="Sun Insulation" color="574204" m="0.95" s="0.95" d="0.2" />
+      <Material name="Solar Cells" color="0B0B64" m="1" s="0.3" d="0.3" />
+      <Material name="Light" color="FFEEB9" m="0" s="1" />
+      <Material name="Display" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Glass Exterior" color="FFFFFF" m="1" s="1" t="0.8" />
+      <Material name="Glass Interior" color="808080" m="1" s="0" t="0.22" />
+    </Theme>
+  </Themes>
+</Craft>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameState xmlVersion="6" companyName="Carson Space" mode="Sandbox" type="Default" lastModifiedTime="2024-09-03T15:45:52.985981+08:00" createdTime="2024-08-25T02:06:02.0974342+08:00" menuTutorialComplete="false" editorCraftId="__editor_a03ca177-b419-4031-a279-55dd41ee738a__">
+  <PreflightLoadParameters LaunchCraftId="__editor_a03ca177-b419-4031-a279-55dd41ee738a__" LaunchCraftNodeName="Wasp 3.1" LoadingScreen="Droo" LaunchCost="0">
+    <LaunchLocation name="DSC Westward Runway" version="2" planetName="Droo" latitude="0.06" longitude="-130.209" agl="0.41639882" heading="90" type="SurfaceLockedGround" />
+  </PreflightLoadParameters>
+  <CrewMembers nextId="8">
+    <CrewMember id="1" nodeId="3" name="Yuri G." location="Droo" state="Available" />
+    <CrewMember id="2" nodeId="13" name="Sally R." location="Droo" state="Available" />
+    <CrewMember id="3" nodeId="3" name="Dante Compton" location="Droo" state="Available" />
+    <CrewMember id="4" nodeId="3" name="Apollo Parker" location="Droo" state="Available" />
+    <CrewMember id="5" nodeId="3" name="Achilles Stone" location="Droo" state="Available" />
+    <CrewMember id="6" nodeId="3" name="Ezequiel Dominguez" location="Droo" state="Available" />
+    <CrewMember id="7" nodeId="0" name="Makenna Vega" location="" state="Available" />
+  </CrewMembers>
+</GameState>

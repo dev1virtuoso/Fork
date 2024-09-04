@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Craft name="" parent="" initialBoundsMin="0,0,0" initialBoundsMax="0,0,0" removeInvalidParts="true" price="0" xmlVersion="15" activeCommandPod="0" localCenterOfMass="-0.0003683871,4.230979E-05,-0.0002133888">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Parachute1" position="0.0003730796,-2.274729E-05,0.0002141839" rotation="-5.088886E-14,3.415094E-06,1.707547E-06" preferredNodeName="Crew Carson 1-758" themeId="25a9195c-c404-4c77-9ea1-eef798ccc505" activated="true" previouslyActivated="true" activationStage="3" rootPart="true" materials="15,16,16,18,15" symmetryId="5c6e1f8c-bd77-4b7d-93b4-fe2d232070bb" damage="98.91296" baseStyle="Small">
+        <Drag drag="0.04292239,0.04292837,0.07140382,0.08962362,0.03369133,0.03371178" area="0.05987052,0.05987908,0.0896467,0.08963131,0.05245694,0.0524655" />
+        <Config heatShieldScale="0" initialCraftNodeId="756" symmetryId="9c101c7d-d517-4360-86a5-4635e56e9759" />
+        <Parachute autocutASL="-0" baseSize="0.6" chuteHeight="1" chuteRadius="10" cordLength="6.15131569" deploymentASL="5881.106" inflationASL="1893.29309" referenceDensity="1.2" symmetryId="fd4b6eae-c664-4499-ba62-2ed076d39b8f" />
+      </Part>
+    </Parts>
+    <Connections />
+    <Collisions />
+    <Bodies>
+      <Body id="1" partIds="1" mass="2.2392" position="0.0003730796,-2.274729E-05,0.0002141839" rotation="2.218169E-06,240,1.280661E-06" centerOfMass="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <DesignerSettings themeName="Custom" />
+  <Themes>
+    <Theme name="Custom" id="25a9195c-c404-4c77-9ea1-eef798ccc505">
+      <Material name="Base Color" color="FFFFFF" m="0.3" s="0" />
+      <Material name="Detail Color" color="178BFF" m="0" s="0.3" />
+      <Material name="Light Metal" color="CBCDCE" m="0.85" s="0.8" />
+      <Material name="Heavy Metal" color="76736F" m="0.85" s="0.5" />
+      <Material name="Ablative" color="000000" m="0.85" s="0" d="0.5" />
+      <Material name="Accent Color 1" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 2" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 3" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 4" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 5" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Gauge Color 1" color="000000" m="0.85" s="0" />
+      <Material name="Gauge Color 2" color="FF8000" m="0" s="0.5" e="1" />
+      <Material name="Gauge Color 3" color="FFFFFF" m="0" s="0" e="1" />
+      <Material name="Gauge Color 4" color="FF0000" m="0" s="0" e="1" />
+      <Material name="Gauge Color 5" color="68D100" m="0" s="0" e="1" />
+      <Material name="Fabric Base" color="FFFFFF" m="0" s="0" d="0.2" />
+      <Material name="Fabric Detail" color="178BFF" m="0" s="0" d="0.1" />
+      <Material name="Brushed Light Metal" color="CBCDCE" m="0.85" s="0.3" d="0.5" />
+      <Material name="Brushed Heavy Metal" color="76736F" m="0.85" s="0.3" d="0.5" />
+      <Material name="Sun Insulation" color="574204" m="0.95" s="0.95" d="0.2" />
+      <Material name="Solar Cells" color="000046" m="0.85" s="0.5" d="0.1" />
+      <Material name="Light" color="FFEEB9" m="0" s="1" />
+      <Material name="Display" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Glass Exterior" color="FFFFFF" m="1" s="1" t="0.8" />
+      <Material name="Glass Interior" color="808080" m="1" s="0" t="0.9" />
+    </Theme>
+  </Themes>
+</Craft>

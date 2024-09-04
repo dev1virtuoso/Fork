@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FlightState xmlVersion="3" time="48236.618578103662" totalFlightTimeInRealtimeSeconds="2290.8335576872341" playerNodeId="23" minNodeId="23">
+  <PlanetarySystem hash="95b3794d-038b-2f48-4646-497456d62794" />
+  <Nodes>
+    <Planet name="Juno" rotation="0" trueAnomaly="0" />
+    <Planet name="Vulco" rotation="-0.048758747332486439" trueAnomaly="0.048759722172729891" />
+    <Planet name="Sergeaa" rotation="-0.084188781353597988" trueAnomaly="4.7208280471555275" />
+    <Planet name="Droo" rotation="-4.0134843823938322" trueAnomaly="5.7345797294350787" />
+    <Planet name="Brigo" rotation="-3.2246204857207226" trueAnomaly="5.8623199730464979" />
+    <Planet name="Luna" rotation="-0.80615512142689927" trueAnomaly="0.88939607031777312" />
+    <Planet name="T.T." rotation="2.9301858891088863" trueAnomaly="3.2980397458290365" />
+    <Planet name="Cylero" rotation="-6.0134843823937221" trueAnomaly="3.403896580563007" />
+    <Planet name="Niobe" rotation="5.6125854235599277" trueAnomaly="1.9794792082206267" />
+    <Planet name="Herma" rotation="-2.1356928281777576" trueAnomaly="1.722534993757934" />
+    <Planet name="Handrew's Comet" rotation="0.10250752096461002" trueAnomaly="3.8507023708425221" />
+    <Planet name="Tydos" rotation="-0.60134843823950623" trueAnomaly="5.0008019396433365" />
+    <Planet name="Nebra" rotation="-2.2134843823936512" trueAnomaly="1.1658549737067212" />
+    <Planet name="Miros" rotation="-3.9188781353446527" trueAnomaly="4.75011695418139" />
+    <Planet name="Orcus" rotation="-3.0067421911968615" trueAnomaly="5.5591321527673205" />
+    <Planet name="Urados" rotation="0" trueAnomaly="0.26012203522995031" />
+    <Planet name="Jastrus" rotation="-4.1717596850539458" trueAnomaly="5.9717340928561544" />
+    <Planet name="Boreas" rotation="-2.1047195338359224" trueAnomaly="4.599821147999144" />
+    <Planet name="Taurus" rotation="4.2094390676718447" trueAnomaly="0.51799439315391771" />
+    <Planet name="Hypatchion" rotation="-4.2404123620091214" trueAnomaly="0.096121754807527965" />
+    <Craft id="10" name="SimpleDrone-10" parent="Droo" position="-1256042.27073227,-225.722812219372,-214950.446227444" velocity="26.7949451870241,1E-09,-156.573686575392" heading="0.602294610399047,-0.614722508942385,-0.38700291554238,0.331037937696647" inContactWithPlanet="true" hasCommandPod="false" craftMass="8.27188" craftPartCount="48" allowPlayerControl="true" waterDepth="0" initialNodes="9" surfacePosition="972666.59356217,-225.722812219372,-823265.192977224" surfaceVelocity="102.625261344506,0,121.249099581633" surfaceRotation="-0.605136685717851,0.559653959772828,-0.382543646306861,0.417441397214968">
+      <InitialCrafts>
+        <InitialCraft nodeId="9" name="SimpleDrone" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="460.96669667214155" launchMass="1628.46069" launchPrice="345768" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963623342907" eccentricity="0.99797868673636525" inclination="0.00017713445442345906" prograde="true" rightAscensionOfAscendingNode="4.8818801985534215" semiMajorAxis="637795.65989083017" time="48236.618578103662" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="19" name="Wasp 3.1-19" parent="Droo" position="-1253173.77948333,92550.030117338,-211557.196533895" velocity="26.3726001609486,1E-09,-156.219932765103" heading="-0.142551310303359,-0.823291257727039,0.534583776643247,-0.126850703051222" inContactWithPlanet="true" hasCommandPod="false" craftMass="117.729454" craftPartCount="107" allowPlayerControl="true" waterDepth="0" initialNodes="18" surfacePosition="968223.371622284,92550.030117338,-823252.374205021" surfaceVelocity="102.626174160812,0,120.698176496156" surfaceRotation="0.54477955950127,0.232663094584906,-0.0965190090506677,0.799854658093571">
+      <InitialCrafts>
+        <InitialCraft nodeId="18" name="Wasp 3.1" launchPlanetName="Droo" launchLocationName="DSC Westward Runway" launchLocationType="SurfaceLockedGround" launchTime="47179.810195715807" launchMass="16626.8242" launchPrice="11209078" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889802982433" eccentricity="0.99798939846564638" inclination="0.072693795185431329" prograde="true" rightAscensionOfAscendingNode="1.73803661120968" semiMajorAxis="637776.63686464762" time="48236.618578103662" trueAnomaly="3.1415926535897931" />
+    </Craft>
+  </Nodes>
+  <MapView>
+    <MapOptions gizmoAlignment="ReferenceOrbit" maneuverNodeSensitivityLinear="0.5" orbitUiVerbosity="High" fontSize="Default" version="2" />
+    <ManeuverNodes />
+    <MapItems>
+      <StructureDefaults showOrbitLines="false" showIcons="true" />
+      <CraftDefaults showOrbitLines="false" showIcons="true" />
+      <PlanetDefaults showOrbitLines="true" showIcons="true" showSpheresOfInfluence="false" />
+    </MapItems>
+  </MapView>
+</FlightState>

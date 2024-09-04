@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Craft name="" parent="" initialBoundsMin="0,0,0" initialBoundsMax="0,0,0" removeInvalidParts="true" price="0" xmlVersion="15" activeCommandPod="0" localCenterOfMass="0.0001468835,-5.664177,-0.0001017432">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Detacher1" position="-0.0001312494,5.663949,-6.03199E-05" rotation="0,0,0" name="Third Stage Interstage" preferredNodeName="SimpleCargo-840" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" activated="true" previouslyActivated="true" activationStage="4" stageOverride="true" rootPart="true" materials="0,0,18,3,18" texture="Fuselage4" textureTiling="0.5,1.504" textureOffset="0,0.95">
+        <Drag drag="5.978311,5.975626,4.823598,0,5.976531,5.974775" area="7.759022,7.759022,6.520826,0,7.763649,7.754395" />
+        <Config centerOfMass="2.216536E-09,-0.06781159,6.434122E-08" initialCraftNodeId="838" />
+        <Fuselage bottomScale="1.45,1.45" deformations="0,0,0" depthCurve="0" meshMassMultiplier="1.5" offset="1.228201E-20,1.4,1.136871E-13" shellDensityOverride="-1" topScale="1.3,1.3" volume="16.4577827" volumeInner="16.2781124" version="3" />
+        <Detacher version="2" />
+        <CoverEngine />
+        <CrossFeed />
+      </Part>
+      <Part id="2" partType="Fuselage1" position="-0.000130266,1.01398,-5.680323E-05" rotation="2.988208E-06,-6.830189E-06,1.707547E-06" name="Second Stage Main Tank" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" materials="0,1,2,3,4" texture="Default">
+        <Drag drag="14.1879,13.16175,0.01373543,0,13.16705,14.04084" area="18.26578,17.10897,0.01373543,0,17.10897,18.17324" />
+        <Config centerOfMass="2.218474E-08,8.144801E-08,1.170815E-07" fuelLine="true" initialCraftNodeId="838" />
+        <Fuselage bottomScale="1.45,1.45" deformations="0,0,0" depthCurve="0" offset="3.209944E-13,3.250005,-1.705303E-12" shellDensityOverride="-1" topScale="1.45,1.45" volume="42.4451065" volumeInner="42.08455" version="3" />
+        <FuelTank capacity="23613.623046875" subPriority="126" />
+      </Part>
+      <Part id="3" partType="Fuselage1" position="-0.0001266003,-2.860812,-5.948544E-05" rotation="1.366038E-05,-6.830189E-06,-1.707548E-06" name="Second Stage Bottom Tank" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" materials="0,0,2,3,4" texture="Default">
+        <Drag drag="2.605581,2.478447,0.2396976,5.926795,2.845423,2.859231" area="3.465397,3.326594,1.528065,5.926795,3.585692,3.613453" />
+        <Config centerOfMass="-4.086179E-09,-0.03579293,4.068211E-08" fuelLine="true" initialCraftNodeId="838" />
+        <Fuselage bottomScale="1.65,1.65" deformations="0,0,0" depthCurve="0" offset="6.50521E-19,0.6250055,-2.160049E-12" shellDensityOverride="-1" topScale="1.45,1.45" volume="9.340215" volumeInner="9.203833" version="3" />
+        <FuelTank capacity="5196.27294921875" fuel="3.7252902984619141E-08" subPriority="87" />
+      </Part>
+      <Part id="4" partType="Strut1" position="-0.0002447069,0.9890783,5.358458E-05" rotation="2.177123E-05,180,3.415098E-06" name="First Stage Intertank" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" materials="0,0,0,0,0" texture="Fuselage4" textureTiling="0.5,1" textureOffset="0,0.95">
+        <Drag drag="0.526534,1.558191,0.24037,0,1.559209,0.6762208" area="0.8328036,1.989464,0.24037,0,1.989464,0.9253374" />
+        <Config centerOfMass="-1.915217E-08,-1.709551E-09,8.826053E-08" initialCraftNodeId="838" />
+        <Fuselage bottomScale="1.475,1.475" cornerRadiuses="1,1,1,1,1,1,1,1" deformations="0,0,0" depthCurve="0" offset="0,0.3250097,0" shellDensityOverride="-1" topScale="1.475,1.475" volume="4.392258" volumeInner="4.29465246" version="3" />
+      </Part>
+      <Part id="5" partType="RocketEngine1" position="-0.0002030134,-3.485451,1.716614E-05" rotation="-3.848645E-06,270,-3.765636E-05" name="Second Stage Engine" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" activated="true" previouslyActivated="true" activationStage="2" stageOverride="true" materials="2,3,2,3,18" engineTypeTexture="RocketEngine_Type" subTypeTexture="RocketEngine_SubType" nozzleTexture="RocketEngine_Nozzle" nozzleExtensionTexture="RocketEngine_Extension">
+        <Drag drag="3.104357,3.100783,0,0.9457938,2.933584,2.925746" area="4.168663,4.164036,0,2.444911,3.932699,3.928072" />
+        <Config initialCraftNodeId="838" />
+        <RocketEngine gimbalRange="0.4" nozzleSize="1.4" nozzleThroatSize="1" size="0.95" wattsPerFuelFlowOverride="-1" ignited="false" ignitionsOverride="-1" ignitionsUsed="0" heatTransferOverride="1" exhaustColorExpanded="Default" mass="10.9137077" price="2423203" />
+      </Part>
+      <Part id="6" partType="Strut1" position="-0.6987767,-3.190736,-1.498375" rotation="81.09583,205,180" name="Detail" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" materials="0,0,2,3,4" symmetryId="11a7a815-851b-47e9-8c93-10241f1cb8f3" texture="Default">
+        <Drag drag="0,0.1187877,0.04628304,0.03821683,0.0883786,0.01495052" area="0,0.1758137,0.0652433,0.05837559,0.1341736,0.01850671" />
+        <AttachPoints>
+          <AttachPoint id="2" position="1.1176E-07,0.1250018,0.006251385" rotation="-90,180,0" scale="0.3" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="false" ignoreSurfaces="true" allowRotation="false" jointType="Fused" connectionType="Normal" crewTraversable="true" />
+        </AttachPoints>
+        <Config centerOfMass="3.716083E-08,0.03097996,0.00154933" initialCraftNodeId="838" symmetryId="36b3b165-cec1-4a18-a3f4-956378eac1c9" />
+        <Fuselage bottomScale="0.1,0.1374965" cornerRadiuses="0,0,0,0,0,0,0,0" deformations="0,0,0" depthCurve="0" offset="1.1176E-07,0.1250018,0.006251385" shellDensityOverride="-1" topScale="0.15,0.3" volume="0.028021032" volumeInner="0.0249847211" symmetryId="139a7c04-5c2e-4d2c-852f-233563cdac2b" version="3" />
+      </Part>
+      <Part id="7" partType="Strut1" position="-0.0003145933,-2.790425,-1.601381" rotation="80.00047,180,180" name="Detail" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" materials="0,0,2,3,4" symmetryId="f4cefc4d-cbf0-4a7f-8825-a000d8f71970" texture="Default">
+        <Drag drag="0,0.1102238,0.03121445,0.008456719,0.08756214,0.08756214" area="0,0.1388003,0.05150787,0.01373543,0.08790686,0.08790686" />
+        <AttachPoints>
+          <AttachPoint id="2" position="-4.843111E-08,0.1250017,-0.01249762" rotation="-90,180,0" scale="0.2" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="false" ignoreSurfaces="true" allowRotation="false" jointType="Fused" connectionType="Normal" crewTraversable="true" />
+        </AttachPoints>
+        <Config centerOfMass="-1.531901E-08,0.03488474,-0.003487759" initialCraftNodeId="838" symmetryId="1a4c5052-7432-40ab-9d13-42a21c9c2466" />
+        <Fuselage bottomScale="0.075,0.1249966" cornerRadiuses="0,0,0,0,0,0,0,0" deformations="0,0,0" depthCurve="0" offset="-4.843111E-08,0.1250017,-0.01249762" shellDensityOverride="-1" topScale="0.1,0.375" volume="0.0223959927" volumeInner="0.0195827559" symmetryId="021b063a-5ca1-461e-ab3c-d5749ab0afcd" version="3" />
+      </Part>
+      <Part id="8" partType="Strut1" position="0.6776775,-3.198612,-1.453524" rotation="81.09581,155.0001,180.0001" name="Detail" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" materials="0,0,2,3,4" symmetryId="045fae95-d94c-4564-9eae-9c15f98aa976" texture="Default">
+        <Drag drag="0,0.1104415,0.02976011,0.02830577,0,0.05860458" area="0,0.1619337,0.0412063,0.04464016,0,0.08790686" />
+        <AttachPoints>
+          <AttachPoint id="2" position="-8.195617E-08,0.1250012,0.006250585" rotation="-90,180,0" scale="0.3" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="false" ignoreSurfaces="true" allowRotation="false" jointType="Fused" connectionType="Normal" crewTraversable="true" />
+        </AttachPoints>
+        <Config centerOfMass="-1.408653E-08,0.03097912,0.001549091" initialCraftNodeId="838" symmetryId="3359d84b-2e3b-4d35-9770-024360d54c6d" />
+        <Fuselage bottomScale="0.1,0.1375007" cornerRadiuses="0,0,0,0,0,0,0,0" deformations="0,0,0" depthCurve="0" offset="-8.195617E-08,0.1250012,0.006250585" shellDensityOverride="-1" topScale="0.15,0.3" volume="0.02802115" volumeInner="0.0249848329" symmetryId="bac8771a-1315-4e0d-97f0-9fb8fa2d3d03" version="3" />
+      </Part>
+      <Part id="9" partType="Strut1" position="0.6984122,-3.190482,1.49837" rotation="81.09642,25.00014,180" name="Detail" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" materials="0,0,2,3,4" symmetryId="11a7a815-851b-47e9-8c93-10241f1cb8f3" texture="Default">
+        <Drag drag="0.08812458,0,0.0429973,0.03821683,0.01121289,0.08028646" area="0.1249203,0,0.05837559,0.05837559,0.01388003,0.1064136" />
+        <AttachPoints>
+          <AttachPoint id="2" position="1.1176E-07,0.1250018,0.006251385" rotation="-90,180,0" scale="0.3" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="false" ignoreSurfaces="true" allowRotation="false" jointType="Fused" connectionType="Normal" crewTraversable="true" />
+        </AttachPoints>
+        <Config centerOfMass="3.716083E-08,0.03097996,0.00154933" initialCraftNodeId="838" symmetryId="36b3b165-cec1-4a18-a3f4-956378eac1c9" />
+        <Fuselage bottomScale="0.1,0.1374965" cornerRadiuses="0,0,0,0,0,0,0,0" deformations="0,0,0" depthCurve="0" offset="1.1176E-07,0.1250018,0.006251385" shellDensityOverride="-1" topScale="0.15,0.3" volume="0.028021032" volumeInner="0.0249847211" symmetryId="139a7c04-5c2e-4d2c-852f-233563cdac2b" version="3" />
+      </Part>
+      <Part id="10" partType="Strut1" position="-0.0002339482,-2.790482,1.601565" rotation="80.00039,8.213809E-06,180" name="Detail" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" materials="0,0,2,3,4" symmetryId="f4cefc4d-cbf0-4a7f-8825-a000d8f71970" texture="Default">
+        <Drag drag="0.09079173,0,0.02305399,0.008456719,0.08295361,0.07834508" area="0.1110402,0,0.0412063,0.01373543,0.08328018,0.07865351" />
+        <AttachPoints>
+          <AttachPoint id="2" position="-4.843111E-08,0.1250017,-0.01249762" rotation="-90,180,0" scale="0.2" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="false" ignoreSurfaces="true" allowRotation="false" jointType="Fused" connectionType="Normal" crewTraversable="true" />
+        </AttachPoints>
+        <Config centerOfMass="-1.531901E-08,0.03488474,-0.003487759" initialCraftNodeId="838" symmetryId="1a4c5052-7432-40ab-9d13-42a21c9c2466" />
+        <Fuselage bottomScale="0.075,0.1249966" cornerRadiuses="0,0,0,0,0,0,0,0" deformations="0,0,0" depthCurve="0" offset="-4.843111E-08,0.1250017,-0.01249762" shellDensityOverride="-1" topScale="0.1,0.375" volume="0.0223959927" volumeInner="0.0195827559" symmetryId="021b063a-5ca1-461e-ab3c-d5749ab0afcd" version="3" />
+      </Part>
+      <Part id="11" partType="Strut1" position="-0.6777948,-3.198349,1.453259" rotation="81.09612,335,180" name="Detail" themeId="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b" materials="0,0,2,3,4" symmetryId="045fae95-d94c-4564-9eae-9c15f98aa976" texture="Default">
+        <Drag drag="0.07237574,0,0.03293811,0.02830577,0.06179789,0" area="0.1017869,0,0.04464016,0.04464016,0.08790686,0" />
+        <AttachPoints>
+          <AttachPoint id="2" position="-8.195617E-08,0.1250012,0.006250585" rotation="-90,180,0" scale="0.3" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="false" ignoreSurfaces="true" allowRotation="false" jointType="Fused" connectionType="Normal" crewTraversable="true" />
+        </AttachPoints>
+        <Config centerOfMass="-1.408653E-08,0.03097912,0.001549091" initialCraftNodeId="838" symmetryId="3359d84b-2e3b-4d35-9770-024360d54c6d" />
+        <Fuselage bottomScale="0.1,0.1375007" cornerRadiuses="0,0,0,0,0,0,0,0" deformations="0,0,0" depthCurve="0" offset="-8.195617E-08,0.1250012,0.006250585" shellDensityOverride="-1" topScale="0.15,0.3" volume="0.02802115" volumeInner="0.0249848329" symmetryId="bac8771a-1315-4e0d-97f0-9fb8fa2d3d03" version="3" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="2" partB="1" attachPointsA="2,4" attachPointsB="1,0" />
+      <Connection partA="3" partB="2" attachPointsA="2,4" attachPointsB="1,5" />
+      <Connection partA="4" partB="2" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="5" partB="3" attachPointsA="0" attachPointsB="1" />
+      <Connection partA="6" partB="3" attachPointsA="1" attachPointsB="0" symmetryId="d94929ed-1160-43b9-9d51-3a8373ab95c3" />
+      <Connection partA="7" partB="3" attachPointsA="1" attachPointsB="0" symmetryId="0d2821f6-d320-4bb1-b984-73a959b2c0ea" />
+      <Connection partA="8" partB="3" attachPointsA="1" attachPointsB="0" symmetryId="8df70f86-1c55-415f-bdbc-a180e5dce53e" />
+      <Connection partA="9" partB="3" attachPointsA="1" attachPointsB="0" symmetryId="d94929ed-1160-43b9-9d51-3a8373ab95c3" />
+      <Connection partA="10" partB="3" attachPointsA="1" attachPointsB="0" symmetryId="0d2821f6-d320-4bb1-b984-73a959b2c0ea" />
+      <Connection partA="11" partB="3" attachPointsA="1" attachPointsB="0" symmetryId="8df70f86-1c55-415f-bdbc-a180e5dce53e" />
+    </Connections>
+    <Collisions />
+    <Bodies>
+      <Body id="1" partIds="1,2,3,4,5,6,7,8,9,10,11" mass="32.95928" position="-0.0001618043,0.2776947,-2.425909E-05" rotation="-2.390566E-05,1.195283E-05,-2.134436E-06" centerOfMass="0.00038647,-0.276836,-0.0004054031" />
+    </Bodies>
+  </Assembly>
+  <DesignerSettings themeName="Custom" />
+  <Themes>
+    <Theme name="Custom" id="6fa5ec6b-965f-4e72-bd6a-b028a3cf854b">
+      <Material name="" color="FFFFFF" m="0.3" s="0" />
+      <Material name="" color="178BFF" m="0" s="0.3" />
+      <Material name="" color="CBCDCE" m="0.85" s="0.8" />
+      <Material name="" color="A2A2A2" m="0.73" s="0.47" d="0.5" />
+      <Material name="" color="000000" m="0.85" s="0" />
+      <Material name="" color="8B6800" m="1" s="0.75" d="0.3" />
+      <Material name="" color="FFFFFF" m="1" s="1" d="0" />
+      <Material name="" color="FFFFFF" m="0" s="0" d="0" t="1" />
+      <Material name="" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="" color="CBCDCE" m="1" s="0.6" d="0" />
+      <Material name="" color="FFFFFF" m="0" s="0" d="0.2" />
+      <Material name="" color="178BFF" m="0" s="0" d="0.1" />
+      <Material name="" color="CBCDCE" m="0.85" s="0.3" d="0.5" />
+      <Material name="" color="76736F" m="0.85" s="0.3" d="0.5" />
+      <Material name="" color="000000" m="0.85" s="1" />
+      <Material name="" color="000046" m="0.85" s="0.5" d="0.1" />
+      <Material name="" color="FFEEB9" m="0" s="1" />
+      <Material name="" color="000000" m="0.85" s="0" />
+      <Material name="" color="FFFFFF" m="1" s="1" t="0.8" />
+      <Material name="" color="808080" m="1" s="1" d="2.5" t="1" />
+    </Theme>
+  </Themes>
+</Craft>

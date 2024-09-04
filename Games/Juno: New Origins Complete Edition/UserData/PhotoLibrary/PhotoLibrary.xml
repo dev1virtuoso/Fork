@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PhotoLibrary>
+  <Album name="Camera Roll">
+    <Photo name="5cd966d0fce04d7db16def6e344e6a5a.png" location="Designer" dateTaken="2024-08-07T15:29:04.149088Z" dimensions="1024x1024" size="101663" cx="50fc1f93324c6a367e525819edd86909" gameState="3029a6ca-524b-414c-82b4-c225442765d9" />
+    <Photo name="2a3ce75c14ab44919f37374a0b9ee127.png" location="Designer" dateTaken="2024-08-07T15:29:46.213051Z" dimensions="1024x1024" size="234582" cx="68ec2421f58eb9e095fca5dd3374c6b9" gameState="3029a6ca-524b-414c-82b4-c225442765d9" />
+    <Photo name="0ea483637ec34be2b3e575caf0a16180.png" location="Designer" dateTaken="2024-08-07T15:30:52.17495Z" dimensions="1024x1024" size="471884" cx="afa50836a93fc011c930430acec662d2" gameState="3029a6ca-524b-414c-82b4-c225442765d9" />
+    <Photo name="8b624381529d4b71ada9c21fc199ee7d.png" location="Designer" dateTaken="2024-08-08T06:14:36.543488Z" dimensions="1024x1024" size="488302" cx="3ea53b9e244b15400ddeea0844ef1e22" gameState="3029a6ca-524b-414c-82b4-c225442765d9" />
+    <Photo name="25e96ab7b3e94d2498db8b14ece3325a.png" location="Designer" dateTaken="2024-08-08T13:19:14.354836Z" dimensions="1024x1024" size="331272" cx="416d0141598d926be00b95abd50cea33" gameState="3029a6ca-524b-414c-82b4-c225442765d9" />
+  </Album>
+</PhotoLibrary>

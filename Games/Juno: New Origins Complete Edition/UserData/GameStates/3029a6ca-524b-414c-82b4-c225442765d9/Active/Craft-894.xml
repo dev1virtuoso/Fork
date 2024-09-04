@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Craft name="" parent="" initialBoundsMin="0,0,0" initialBoundsMax="0,0,0" removeInvalidParts="true" price="0" xmlVersion="15" activeCommandPod="0" localCenterOfMass="2.243268E-05,3.588391,-1.855782">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Wing1" position="-0.0007548332,-3.588199,1.856363" rotation="3.415096E-06,6.83019E-06,-5.122643E-06" name="Horizontal stabilizer" preferredNodeName="SimpleTransporter-892-894" themeId="257d97da-f180-4900-b77b-9b70655537ff" activated="true" previouslyActivated="true" rootPart="true" materials="0,0,0,0,0" symmetryId="5124301f-ded5-4acb-88d6-7826fa9f315d" mirrored="true">
+        <Drag drag="4.433195,4.798317,25.64379,24.4395,1.205229,2.984265" area="8.79491,8.655466,28.1629,28.19019,4.864022,5.229462" />
+        <AttachPoints>
+          <AttachPoint id="0" position="0,8.6,-3.6" rotation="270,180,0" scale="0.8391338" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="true" ignoreSurfaces="false" allowRotation="false" jointType="Fused" connectionType="Normal" crewTraversable="false" />
+          <AttachPoint id="1" position="0,0,0" rotation="90,0,0" scale="1.2750001" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="true" ignoreSurfaces="false" allowRotation="true" jointType="Fused" connectionType="Normal" crewTraversable="false" />
+        </AttachPoints>
+        <Config centerOfMass="6.085447E-06,3.522275,-1.825008" heatShieldScale="0" initialCraftNodeId="889" symmetryId="38b25336-331e-4946-939e-a65d8ee5f977" />
+        <Wing controlSurfacePriceMultiplier="1.505" craftSide="Left" hingeDistanceFromTrailingEdge="0.35" isFancy="true" isStylish="true" maxFuelCapacity="8186.94971" rootLeadingOffset="2.60000014" rootTrailingOffset="2.5" thickness="0.704145551" thicknessDeltaStyle="0.1" thicknessOffsetStyle="0" thicknessTipAuto="0.2761355" leadingBulgeStyle="1" tipLeadingOffset="0.900000036" tipPosition="0,8.6,-3.6" tipTrailingOffset="1.1" wingStrengthOverride="1" symmetryId="e8bc2d0d-c7f0-42b3-b0f6-e1435e5799ae" version="3" />
+        <ControlSurface deflectionSpeed="0.8" end="14" maxDeflectionDegree="45" start="1" symmetryId="5e2553e1-7b40-4f55-9f82-51c80b4d4a2a" />
+        <FuelTank capacity="8186.94970703125" fuel="8186.94970703125" fuelType="None" subPriority="-243" symmetryId="07525d0f-ec58-4eab-9f74-8dd98cc805e4" />
+      </Part>
+      <Part id="2" partType="Wing1" position="-0.0008893013,5.011206,-1.743668" rotation="-5.464151E-05,-1.707547E-05,-6.830181E-06" name="Horizontal stabilizer" themeId="257d97da-f180-4900-b77b-9b70655537ff" activated="true" previouslyActivated="true" materials="0,0,0,0,0" symmetryId="43515e0d-bb17-4a3d-88b7-880b97c9291a" mirrored="true">
+        <Drag drag="0.02450547,0.005364991,0.7616791,0.727128,0.2186352,0.003903524" area="0.1105999,0.1081956,0.8048873,0.7844242,0.3919077,0.04568257" />
+        <AttachPoints>
+          <AttachPoint id="0" position="0,0.8,-1.3" rotation="270,180,0" scale="0.525486" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="false" ignoreSurfaces="false" allowRotation="false" jointType="Fused" connectionType="Normal" crewTraversable="false" />
+          <AttachPoint id="1" position="0,0,0" rotation="90,0,0" scale="0.525486" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="true" ignoreSurfaces="false" allowRotation="true" jointType="Fused" connectionType="Normal" crewTraversable="false" />
+          <AttachPoint id="2" position="0,0,0" rotation="0,0,0" scale="1" positionOffset="0,0,0" rotationOffset="0,0,0" enabled="true" ignoreSurfaces="false" allowRotation="false" jointType="Fused" connectionType="Normal" crewTraversable="false" />
+        </AttachPoints>
+        <Config centerOfMass="-3.840327E-05,0.2343461,-0.6999882" heatShieldScale="0" initialCraftNodeId="889" symmetryId="cd388459-512a-43a8-beab-8600f5925638" />
+        <Wing craftSide="Left" hingeDistanceFromTrailingEdge="0.35" isFancy="true" isStylish="true" maxFuelCapacity="53.42964" rootLeadingOffset="0.900000036" rootTrailingOffset="1.1" thickness="0.2761355" thicknessDeltaStyle="0.1" thicknessOffsetStyle="0" thicknessTipAuto="0" leadingBulgeStyle="1" tipLeadingOffset="0" tipPosition="0,0.8,-1.3" tipTrailingOffset="0" wingStrengthOverride="1" symmetryId="98f070c5-14ee-4bba-b73f-f8898a209f48" version="3" />
+        <FuelTank capacity="53.429641723632813" fuel="53.429641723632813" fuelType="None" subPriority="-279" symmetryId="ce6a64a3-a201-4f05-ad39-c5a6f9615032" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="2" partB="1" attachPointsA="1" attachPointsB="0" symmetryId="9229c383-d907-4a2d-9421-e7a1dc78d99a" />
+    </Connections>
+    <Collisions />
+    <Bodies>
+      <Body id="1" partIds="1,2" mass="13.4780951" position="-0.0006901583,-0.0006035032,0.0005929236" rotation="1.510216E-05,1.395363E-05,275" centerOfMass="0.0006019605,0.0008450999,-0.0004996529" />
+    </Bodies>
+  </Assembly>
+  <DesignerSettings themeName="Custom">
+    <Theme name="Custom" id="25a9195c-c404-4c77-9ea1-eef798ccc505">
+      <Material name="Base Color" color="FFFFFF" m="0.3" s="0" />
+      <Material name="Detail Color" color="178BFF" m="0" s="0.3" />
+      <Material name="Light Metal" color="CBCDCE" m="0.85" s="0.8" />
+      <Material name="Heavy Metal" color="76736F" m="0.85" s="0.5" />
+      <Material name="Ablative" color="000000" m="0.85" s="0" d="0.5" />
+      <Material name="Accent Color 1" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 2" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 3" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 4" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 5" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Gauge Color 1" color="000000" m="0.85" s="0" />
+      <Material name="Gauge Color 2" color="FF8000" m="0" s="0.5" e="1" />
+      <Material name="Gauge Color 3" color="FFFFFF" m="0" s="0" e="1" />
+      <Material name="Gauge Color 4" color="FF0000" m="0" s="0" e="1" />
+      <Material name="Gauge Color 5" color="68D100" m="0" s="0" e="1" />
+      <Material name="Fabric Base" color="FFFFFF" m="0" s="0" d="0.2" />
+      <Material name="Fabric Detail" color="178BFF" m="0" s="0" d="0.1" />
+      <Material name="Brushed Light Metal" color="CBCDCE" m="0.85" s="0.3" d="0.5" />
+      <Material name="Brushed Heavy Metal" color="76736F" m="0.85" s="0.3" d="0.5" />
+      <Material name="Sun Insulation" color="574204" m="0.95" s="0.95" d="0.2" />
+      <Material name="Solar Cells" color="000046" m="0.85" s="0.5" d="0.1" />
+      <Material name="Light" color="FFEEB9" m="0" s="1" />
+      <Material name="Display" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Glass Exterior" color="FFFFFF" m="1" s="1" t="0.8" />
+      <Material name="Glass Interior" color="808080" m="1" s="0" t="0.9" />
+    </Theme>
+  </DesignerSettings>
+  <Themes>
+    <Theme name="Custom" id="257d97da-f180-4900-b77b-9b70655537ff">
+      <Material name="Base Color" color="879FAB" m="0" s="0.6" />
+      <Material name="Detail Color" color="FFFF00" m="0.1" s="0.08" />
+      <Material name="Light Metal" color="CBCDCE" m="0.85" s="0.8" />
+      <Material name="Heavy Metal" color="76736F" m="0.85" s="0.5" />
+      <Material name="Ablative" color="464646" m="0.5" s="0.1" d="0.5" />
+      <Material name="Accent Color 1" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 2" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 3" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 4" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Accent Color 5" color="FFFFFF" m="0.1" s="0.08" />
+      <Material name="Gauge Color 1" color="000000" m="0" s="0" />
+      <Material name="Gauge Color 2" color="FF8000" m="0" s="0" e="1" />
+      <Material name="Gauge Color 3" color="FFFFFF" m="0" s="0" e="1" />
+      <Material name="Gauge Color 4" color="FF0000" m="0" s="0.65" e="1" />
+      <Material name="Gauge Color 5" color="68D100" m="0" s="0.65" e="1" />
+      <Material name="Fabric Base" color="FFFFFF" m="0" s="0" d="0.2" />
+      <Material name="Fabric Detail" color="178BFF" m="0" s="0" d="0.1" />
+      <Material name="Brushed Light Metal" color="CBCDCE" m="0.85" s="0.3" d="0.5" />
+      <Material name="Brushed Heavy Metal" color="76736F" m="0.85" s="0.3" d="0.5" />
+      <Material name="Sun Insulation" color="000000" m="0.95" s="0.95" d="0.2" />
+      <Material name="Solar Cells" color="000046" m="0.85" s="0.5" d="0.1" />
+      <Material name="Light" color="DFE1EE" m="1" s="0.65" />
+      <Material name="Display" color="000000" m="0.1" s="0.08" />
+      <Material name="Glass Exterior" color="FFFFFF" m="1" s="1" t="0.8" />
+      <Material name="Glass Interior" color="808080" m="1" s="0" t="0.9" />
+    </Theme>
+  </Themes>
+</Craft>

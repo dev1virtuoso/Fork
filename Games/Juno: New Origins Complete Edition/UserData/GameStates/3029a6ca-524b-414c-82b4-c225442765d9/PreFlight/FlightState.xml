@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FlightState xmlVersion="3" time="42410469105.126083" totalFlightTimeInRealtimeSeconds="86000.596907698084" playerNodeId="949" minNodeId="949">
+  <PlanetarySystem hash="95b3794d-038b-2f48-4646-497456d62794" />
+  <Nodes>
+    <Planet name="Juno" rotation="0" trueAnomaly="0" />
+    <Planet name="Vulco" rotation="-5.6436034657782876" trueAnomaly="5.6435915367160048" />
+    <Planet name="Sergeaa" rotation="-4.3094020922820153" trueAnomaly="1.5947773679335269" />
+    <Planet name="Droo" rotation="-1.5287467699635735" trueAnomaly="1.0300042009208374" />
+    <Planet name="Brigo" rotation="-5.5163253551700207" trueAnomaly="0.72500689134786789" />
+    <Planet name="Luna" rotation="-4.5206709335309849" trueAnomaly="4.4142841671730109" />
+    <Planet name="T.T." rotation="1.8067192095943121" trueAnomaly="0.73988814409784631" />
+    <Planet name="Cylero" rotation="-3.5287467697208843" trueAnomaly="4.0659133233818183" />
+    <Planet name="Niobe" rotation="0.36134384077360143" trueAnomaly="1.9247039849908427" />
+    <Planet name="Herma" rotation="-3.6836084155657236" trueAnomaly="3.255919294911823" />
+    <Planet name="Handrew's Comet" rotation="1.6504231084352603" trueAnomaly="3.9819167988356163" />
+    <Planet name="Tydos" rotation="-4.7511043931158179" trueAnomaly="3.1303024206266845" />
+    <Planet name="Nebra" rotation="-6.0119320768779305" trueAnomaly="6.247996665361276" />
+    <Planet name="Miros" rotation="-5.4667937225933931" trueAnomaly="2.0073415153685268" />
+    <Planet name="Orcus" rotation="-4.9059660390850928" trueAnomaly="0.71564641606210833" />
+    <Planet name="Urados" rotation="0" trueAnomaly="3.2435333980889425" />
+    <Planet name="Jastrus" rotation="-2.0937577105532958" trueAnomaly="3.893727672695122" />
+    <Planet name="Boreas" rotation="-0.92090210341971535" trueAnomaly="2.1311234150146459" />
+    <Planet name="Taurus" rotation="1.8418042079835715" trueAnomaly="5.8622316808003765" />
+    <Planet name="Hypatchion" rotation="-4.6045105195218268" trueAnomaly="5.1480200759522781" />
+    <Craft id="112" name="New-112" parent="Droo" position="419441.58674274,-549477.312332202,1070222.09577929" velocity="-133.435246399327,1E-09,52.2959595936844" heading="0.600491789265536,-0.689521149716464,0.380517101463269,0.13849665577096" inContactWithPlanet="true" hasCommandPod="false" craftMass="4.46768761" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="110" surfacePosition="1086908.20611567,-549477.312332202,-374081.716289238" surfaceVelocity="46.6404928317154,0,135.515669942217" surfaceRotation="0.696794788714154,-0.40185609496604,-0.140927832020003,0.577176226910221">
+      <InitialCrafts>
+        <InitialCraft nodeId="110" name="New" launchPlanetName="Droo" launchLocationName="DSC Bay" launchLocationType="SurfaceLockedGround" launchTime="10511.111068710685" launchMass="29061.8867" launchPrice="24812718" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963268080611" eccentricity="0.9983549672737414" inclination="0.44591120126200973" prograde="true" rightAscensionOfAscendingNode="2.7680710259072008" semiMajorAxis="637554.99046543881" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="145" name="New" parent="Droo" position="836257.977122529,-6640.15436478433,961360.446547463" velocity="-119.849330781832,1E-09,104.253258264413" heading="-0.536512783119619,0.044918901750982,0.417451142391778,-0.732035437348853" inContactWithPlanet="true" hasCommandPod="true" craftMass="22.8160324" craftPartCount="10" allowPlayerControl="true" waterDepth="0" initialNodes="145" surfacePosition="995664.565258252,-6640.15436478433,-795105.896076804" surfaceVelocity="99.1229771182283,0,124.125901224597" surfaceRotation="-0.0983520228635597,-0.474207401232575,0.672635326279056,-0.559482713228642">
+      <InitialCrafts>
+        <InitialCraft nodeId="145" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="1490171847.9412487" launchMass="54784.72" launchPrice="8510485" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963280028956" eccentricity="0.99797890371577191" inclination="0.0052112579672550421" prograde="true" rightAscensionOfAscendingNode="2.4256759124163572" semiMajorAxis="637744.42516730935" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="168" name="New-168" parent="Juno" position="-3820138518955.45,-2905985439528.75,48515625841148.7" velocity="-95.2731041312391,-71.3605743705755,1193.26781375123" heading="0.619576334953308,-0.301154166460037,0.280604600906372,0.668350696563721" inContactWithPlanet="false" hasCommandPod="false" craftMass="190.661346" craftPartCount="6" allowPlayerControl="true" waterDepth="0" initialNodes="167">
+      <InitialCrafts>
+        <InitialCraft nodeId="167" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="1681838246.658006" launchMass="293079.031" launchPrice="31481806" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="3.1124926002045479" eccentricity="1.1737017746184604" inclination="0.10878410186765576" prograde="true" rightAscensionOfAscendingNode="2.2278485917570494" semiMajorAxis="-87233884416.566391" time="42410469105.126083" trueAnomaly="2.589501363984914" />
+    </Craft>
+    <Craft id="204" name="New-204" parent="Droo" position="850365.178177397,1.16064519840796,948621.360819869" velocity="-118.282396361503,1E-09,106.030957357177" heading="0.679657924906633,-0.612026485547837,0.224194553996912,-0.336493957006665" inContactWithPlanet="true" hasCommandPod="false" craftMass="30.1719227" craftPartCount="8" allowPlayerControl="true" waterDepth="0" initialNodes="202" surfacePosition="983529.767030376,1.16064519840796,-809736.142101605" surfaceVelocity="100.964974292291,0,122.635081331796" surfaceRotation="0.645749729174753,-0.674652970492228,-0.308553654716999,0.180687437923215">
+      <InitialCrafts>
+        <InitialCraft nodeId="202" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="1684767225.4226124" launchMass="132962.125" launchPrice="24034917" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123820704601274" eccentricity="0.99797921110539123" inclination="9.1104485795696387E-07" prograde="true" rightAscensionOfAscendingNode="5.5523573609969805" semiMajorAxis="637630.0156078958" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="244" name="New-244" parent="Droo" position="797433.299193247,-1023.76129862999,993752.291428691" velocity="-123.892879947128,1E-09,99.4174391897546" heading="-0.681933490313834,0.219874749287724,0.189248227385432,0.67142353609669" inContactWithPlanet="true" hasCommandPod="false" craftMass="18.0925179" craftPartCount="9" allowPlayerControl="true" waterDepth="0" initialNodes="242" surfacePosition="1026395.69785444,-1023.76129862999,-754953.875947332" surfaceVelocity="94.1214533290699,0,127.962591955094" surfaceRotation="-0.361254808878447,0.6233911685736,0.608558228911641,0.33247240389399">
+      <InitialCrafts>
+        <InitialCraft nodeId="242" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="2009691518.1398618" launchMass="190830.375" launchPrice="78178799" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963346297873" eccentricity="0.99797893781814251" inclination="0.00080348916974582211" prograde="true" rightAscensionOfAscendingNode="2.4653615608311763" semiMajorAxis="637716.74628695066" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="245" name="Unassigned" parent="Droo" position="797615.842162458,-838.646491418897,993675.952013567" velocity="-123.878055584896,1E-09,99.4359372696638" heading="0.557114439620073,0.68817110683729,0.435837259835998,0.161532697285698" inContactWithPlanet="true" hasCommandPod="true" craftMass="1.16126" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="242" surfacePosition="1026327.09950885,-838.646491418897,-755139.466649933" surfaceVelocity="94.1405582317362,0,127.94855830375" surfaceRotation="0.703770555951976,0.608527363756143,-0.0709760426194746,-0.359675840616423">
+      <InitialCrafts>
+        <InitialCraft nodeId="242" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="2009691518.1398618" launchMass="190830.375" launchPrice="78178799" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963363595967" eccentricity="0.99797885080565629" inclination="0.000658175380959203" prograde="true" rightAscensionOfAscendingNode="2.465212328355491" semiMajorAxis="637744.09412721335" time="42410469105.126083" trueAnomaly="3.1415926746632175" />
+    </Craft>
+    <Craft id="261" name="New" parent="Juno" position="-6261902265.43402,63428845.6420406,9722713406.31194" velocity="-2830.05117738107,7.46201950900026,-1098.58701126538" heading="-0.591792702674866,-0.619695544242859,0.387017548084259,-0.340553402900696" inContactWithPlanet="false" hasCommandPod="true" craftMass="35.731102" craftPartCount="22" allowPlayerControl="true" waterDepth="0" initialNodes="261">
+      <InitialCrafts>
+        <InitialCraft nodeId="261" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="2009692942.4628973" launchMass="1267127" launchPrice="199481038" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="5.2098472507263871" eccentricity="0.24708293008864204" inclination="0.00565712003348759" prograde="true" rightAscensionOfAscendingNode="0.81975653637869017" semiMajorAxis="10079815107.414774" time="42410469105.126083" trueAnomaly="2.3965618920116003" />
+    </Craft>
+    <Craft id="262" name="New-262" parent="Juno" position="6406626224.90402,-120872039.90282,-24808337764.1828" velocity="1498.27396365713,11.5363979737812,1990.49835524908" heading="0.477786332368851,-0.512530326843262,0.481138557195663,0.526819229125977" inContactWithPlanet="false" hasCommandPod="false" craftMass="1068.8877" craftPartCount="22" allowPlayerControl="true" waterDepth="0" initialNodes="261">
+      <InitialCrafts>
+        <InitialCraft nodeId="261" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="2009692942.4628973" launchMass="1267127" launchPrice="199481038" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="0.77324326567801827" eccentricity="0.65859964588233755" inclination="0.005189128717666725" prograde="true" rightAscensionOfAscendingNode="6.1062257537187357" semiMajorAxis="35211233359.0918" time="42410469105.126083" trueAnomaly="4.36882354046433" />
+    </Craft>
+    <Craft id="265" name="New-265" parent="Juno" position="-15605244325755.3,-2547087010368.91,70898822409089.5" velocity="-462.001108967748,-75.3130608817926,2096.4249558389" heading="0.774673223495483,-0.510730564594269,0.168568938970566,-0.332595944404602" inContactWithPlanet="false" hasCommandPod="false" craftMass="1283.69263" craftPartCount="29" allowPlayerControl="true" waterDepth="0" initialNodes="264">
+      <InitialCrafts>
+        <InitialCraft nodeId="264" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="2353342958.5157046" launchMass="2372942.5" launchPrice="201146779" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="2.5052597659767422" eccentricity="1.2146639899123579" inclination="0.037079784651408147" prograde="true" rightAscensionOfAscendingNode="3.0274699567978938" semiMajorAxis="-27111009166.696152" time="42410469105.126083" trueAnomaly="2.5376920041953128" />
+    </Craft>
+    <Craft id="269" name="New-269" parent="Juno" position="69153107980496.4,18149460752765.6,-36173786688288.5" velocity="1763.36950879337,462.670609076542,-921.504263297801" heading="-0.00354659510776401,-0.700067341327667,0.677983343601227,0.224124222993851" inContactWithPlanet="false" hasCommandPod="false" craftMass="2331.63647" craftPartCount="53" allowPlayerControl="true" waterDepth="0" initialNodes="268">
+      <InitialCrafts>
+        <InitialCraft nodeId="268" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="3234779372.5691833" launchMass="4048031.25" launchPrice="371231317" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="5.6974927638504607" eccentricity="1.453822183039623" inclination="0.23199777824180012" prograde="true" rightAscensionOfAscendingNode="4.0533610911300659" semiMajorAxis="-29978994656.949306" time="42410469105.126083" trueAnomaly="2.3289134352041949" />
+    </Craft>
+    <Craft id="271" name="New-271" parent="Juno" position="-302200157215.522,18604483293.3118,-349899777854.272" velocity="-212.841756132527,27.3403850223177,-547.092492032037" heading="-0.0718294754624367,0.700580835342407,0.703563749790192,-0.0950006395578384" inContactWithPlanet="false" hasCommandPod="false" craftMass="3342.73" craftPartCount="71" allowPlayerControl="true" waterDepth="0" initialNodes="270">
+      <InitialCrafts>
+        <InitialCraft nodeId="270" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="18960096752.563046" launchMass="5652862" launchPrice="541166263" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.58141567590301" eccentricity="0.94698128019200112" inclination="0.047793773925793773" prograde="true" rightAscensionOfAscendingNode="3.0003011594661282" semiMajorAxis="641237930405.40112" time="42410469105.126083" trueAnomaly="2.7019964385133592" />
+    </Craft>
+    <Craft id="273" name="New-273" parent="Juno" position="36338126934217.4,3495065394904.22,9625988228107.8" velocity="1633.09538893111,156.735815588724,437.661393978438" heading="-0.0612761303782463,0.700638115406036,0.704350531101227,-0.0961346700787544" inContactWithPlanet="false" hasCommandPod="false" craftMass="3352.49951" craftPartCount="71" allowPlayerControl="true" waterDepth="0" initialNodes="272">
+      <InitialCrafts>
+        <InitialCraft nodeId="272" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="18960097021.475609" launchMass="5701996.5" launchPrice="543098386" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="0.4100085274762067" eccentricity="2.7049240779764818" inclination="0.13135170506678975" prograde="true" rightAscensionOfAscendingNode="4.181216756272474" semiMajorAxis="-43455705066.92067" time="42410469105.126083" trueAnomaly="1.9465870788018784" />
+    </Craft>
+    <Craft id="275" name="New-275" parent="Juno" position="4948446363.62068,-86576526.8132498,-27898850308.0068" velocity="1751.23035513768,1.03440908752143,675.679255893062" heading="0.69829273223877,-0.00411157077178359,-0.115789383649826,0.706373333930969" inContactWithPlanet="false" hasCommandPod="false" craftMass="190.757172" craftPartCount="5" allowPlayerControl="true" waterDepth="0" initialNodes="274">
+      <InitialCrafts>
+        <InitialCraft nodeId="274" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="18960097183.7398" launchMass="368278.7" launchPrice="32446663" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="0.9824566599346064" eccentricity="0.27517926741434878" inclination="0.0030557244776378604" prograde="true" rightAscensionOfAscendingNode="0.1868975307526495" semiMajorAxis="23585645979.755356" time="42410469105.126083" trueAnomaly="3.7185801037114956" />
+    </Craft>
+    <Craft id="288" name="New Airplane" parent="Droo" position="605317.90525458,5722.35003051671,1120355.544997" velocity="-139.754468373651,1E-09,75.5080674377635" heading="0.137113116388972,-0.0713387612063494,0.778248044663097,-0.608642816972895" inContactWithPlanet="true" hasCommandPod="true" craftMass="186.058685" craftPartCount="25" allowPlayerControl="true" waterDepth="0" initialNodes="288" surfacePosition="1144811.05344048,5722.35003051671,-557686.260856249" surfaceVelocity="69.566440094214,0,142.8050772599" surfaceRotation="0.637584100187945,-0.472725907981429,0.466858130090887,-0.389955762915485">
+      <InitialCrafts>
+        <InitialCraft nodeId="288" name="New Airplane" launchPlanetName="Droo" launchLocationName="DSC Eastward Runway" launchLocationType="SurfaceLockedGround" launchTime="20737977542.384178" launchMass="22822" launchPrice="9222421" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889789837765" eccentricity="0.99798010145122351" inclination="0.00449364523952512" prograde="true" rightAscensionOfAscendingNode="5.7878268483029478" semiMajorAxis="637361.66620550433" time="42410469105.126083" trueAnomaly="3.1415926325163688" />
+    </Craft>
+    <Craft id="295" name="New Airplane" parent="Droo" position="905968.02083173,9776.60845649415,895886.922840371" velocity="-111.690367572877,1E-09,112.947179689994" heading="0.258694843036796,0.272409051432308,0.647688047275524,0.662854121482567" inContactWithPlanet="true" hasCommandPod="true" craftMass="149.970963" craftPartCount="27" allowPlayerControl="true" waterDepth="0" initialNodes="295" surfacePosition="933179.329717514,9776.60845649415,-867506.640824219" surfaceVelocity="108.152193223645,0,116.339617969991" surfaceRotation="0.634985169654575,0.655380516471376,0.288472947569946,0.289928670324576">
+      <InitialCrafts>
+        <InitialCraft nodeId="295" name="New Airplane" launchPlanetName="Droo" launchLocationName="DSC Westward Runway" launchLocationType="SurfaceLockedGround" launchTime="20737980014.39909" launchMass="17641.0117" launchPrice="17465058" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889795642695" eccentricity="0.99797902905970814" inclination="0.0076730508142792706" prograde="true" rightAscensionOfAscendingNode="5.4921923586062906" semiMajorAxis="637725.061308274" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="314" name="New Airplane" parent="Droo" position="915757.964533514,-23166.2323331083,-885684.384688485" velocity="110.415044308539,1E-09,114.164207902829" heading="0.651089865064503,0.638760417047762,-0.296187447088717,-0.283453111529749" inContactWithPlanet="true" hasCommandPod="true" craftMass="26.9413414" craftPartCount="13" allowPlayerControl="true" waterDepth="0" initialNodes="314" surfacePosition="-846405.612167374,-23166.2323331083,-952180.13977354" surfaceVelocity="118.704827747172,0,-105.518302892206" surfaceRotation="0.264980373724025,0.264894018570629,-0.664402284317331,-0.646677411409554">
+      <InitialCrafts>
+        <InitialCraft nodeId="314" name="New Airplane" launchPlanetName="Droo" launchLocationName="DSC Westward Runway" launchLocationType="SurfaceLockedGround" launchTime="20738354972.683659" launchMass="25169.11" launchPrice="17474314" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963271410936" eccentricity="0.99797951645027672" inclination="0.018182000567266845" prograde="true" rightAscensionOfAscendingNode="0.8020907796855502" semiMajorAxis="637744.37670323881" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="335" name="New" parent="Juno" position="6195219282707.95,5377943171712.74,138922905162734" velocity="285.057949011948,248.132736496737,6410.15609714461" heading="-0.360012084245682,-0.589864671230316,0.376570165157318,0.616965234279633" inContactWithPlanet="false" hasCommandPod="true" craftMass="7.22065" craftPartCount="8" allowPlayerControl="true" waterDepth="0" initialNodes="335">
+      <InitialCrafts>
+        <InitialCraft nodeId="335" name="New" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="20738412230.346638" launchMass="235237.859" launchPrice="117712500" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="0.25126997377344268" eccentricity="5.80642930799268" inclination="0.042415915987020429" prograde="true" rightAscensionOfAscendingNode="5.8140513219838565" semiMajorAxis="-3031689695.8216853" time="42410469105.126083" trueAnomaly="1.7437575538916916" />
+    </Craft>
+    <Craft id="351" name="New" parent="Droo" position="871039.706813582,14259.1714102966,930293.808022915" velocity="-115.948707332416,1E-09,108.5634744306" heading="-0.833746385789851,0.428294517993514,-0.328380042320971,-0.116631960411066" inContactWithPlanet="true" hasCommandPod="true" craftMass="149.984039" craftPartCount="11" allowPlayerControl="true" waterDepth="0" initialNodes="351" surfacePosition="966087.513512573,14259.1714102966,-831162.833821846" surfaceVelocity="103.593354414777,0,120.409915013657" surfaceRotation="-0.829078465453159,0.228430708064132,0.339993163281141,-0.380602957612675">
+      <InitialCrafts>
+        <InitialCraft nodeId="351" name="New" launchPlanetName="Droo" launchLocationName="DSC Westward Runway" launchLocationType="SurfaceLockedGround" launchTime="29658888239.38937" launchMass="15090.3535" launchPrice="1611229" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889798220473" eccentricity="0.99797861976122215" inclination="0.011188250941363937" prograde="true" rightAscensionOfAscendingNode="5.5306698629298578" semiMajorAxis="637896.64090986631" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="352" name="New" parent="Droo" position="874105.046284376,11696.7458766858,927262.212982784" velocity="-115.583255777872,1E-09,108.957213749086" heading="-0.012767050712321,0.270077740272031,-0.285941925512606,-0.919310574557341" inContactWithPlanet="true" hasCommandPod="true" craftMass="149.878387" craftPartCount="11" allowPlayerControl="true" waterDepth="0" initialNodes="352" surfacePosition="963187.456442708,11696.7458766858,-834352.903343044" surfaceVelocity="104.002108234189,0,120.061338186033" surfaceRotation="-0.207111521065912,-0.441294381908609,-0.197561627384365,-0.850489945089065">
+      <InitialCrafts>
+        <InitialCraft nodeId="352" name="New" launchPlanetName="Droo" launchLocationName="DSC Westward Runway" launchLocationType="SurfaceLockedGround" launchTime="29658889348.028484" launchMass="15079.7881" launchPrice="1610173" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889796988472" eccentricity="0.997978753823083" inclination="0.0091786029055971989" prograde="true" rightAscensionOfAscendingNode="5.5272879276666274" semiMajorAxis="637828.18368157547" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="354" name="New" parent="Droo" position="867022.433952261,-5044.39044672397,933245.469323879" velocity="-116.376058512991,1E-09,108.118021273444" heading="-0.771314824629528,0.23838677035429,0.283108261225312,0.517778865097114" inContactWithPlanet="true" hasCommandPod="true" craftMass="160.353729" craftPartCount="16" allowPlayerControl="true" waterDepth="0" initialNodes="354" surfacePosition="968867.690918771,-5044.39044672397,-827025.032561759" surfaceVelocity="103.1303303844,0,120.818162847763" surfaceRotation="-0.360812600626948,0.530418305191359,0.738167382118244,0.208757305868523">
+      <InitialCrafts>
+        <InitialCraft nodeId="354" name="New" launchPlanetName="Droo" launchLocationName="DSC Westward Runway" launchLocationType="SurfaceLockedGround" launchTime="29658893335.332188" launchMass="16127.3223" launchPrice="2418336" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963283846149" eccentricity="0.99797943141215084" inclination="0.0039599586488128242" prograde="true" rightAscensionOfAscendingNode="2.3929630105096509" semiMajorAxis="637570.42863423727" time="42410469105.126083" trueAnomaly="3.1415926746632175" />
+    </Craft>
+    <Craft id="355" name="New" parent="Droo" position="862254.352262361,-26720.8043406044,937442.667788531" velocity="-116.888830880126,1E-09,107.513671630726" heading="-0.57476679867263,-0.066322155981533,0.422598645639819,-0.697610636220755" inContactWithPlanet="true" hasCommandPod="true" craftMass="294.948242" craftPartCount="12" allowPlayerControl="true" waterDepth="0" initialNodes="355" surfacePosition="972860.742617662,-26720.8043406044,-822084.727299609" surfaceVelocity="102.504959460769,0,121.305076802203" surfaceRotation="-0.122401881620707,-0.530678115587277,0.702825899714064,-0.457646090707888">
+      <InitialCrafts>
+        <InitialCraft nodeId="355" name="New" launchPlanetName="Droo" launchLocationName="DSC Westward Runway" launchLocationType="SurfaceLockedGround" launchTime="29658936732.240093" launchMass="29586.7734" launchPrice="30710851" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963270949692" eccentricity="0.99798010514635138" inclination="0.020976003209244105" prograde="true" rightAscensionOfAscendingNode="2.397948526923467" semiMajorAxis="637628.13961314934" time="42410469105.126083" trueAnomaly="3.1415926746632175" />
+    </Craft>
+    <Craft id="356" name="New" parent="Droo" position="879374.946548188,-44649.3257049312,920864.393127761" velocity="-114.811453059968,1E-09,109.638635342176" heading="-0.661442783201094,-0.235714446168019,0.269351928091865,-0.65908085230768" inContactWithPlanet="true" hasCommandPod="true" craftMass="295.5954" craftPartCount="14" allowPlayerControl="true" waterDepth="0" initialNodes="356" surfacePosition="957016.823628685,-44649.3257049312,-839887.091482451" surfaceVelocity="104.715371882157,0,119.318862737697" surfaceRotation="-0.291025732077402,-0.626282334392716,0.652197069616326,-0.312600841726492">
+      <InitialCrafts>
+        <InitialCraft nodeId="356" name="New" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="29658941079.575768" launchMass="29651.4883" launchPrice="30714565" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963269744227" eccentricity="0.99798151771580823" inclination="0.035051486278676873" prograde="true" rightAscensionOfAscendingNode="2.3792370390446438" semiMajorAxis="637684.606327602" time="42410469105.126083" trueAnomaly="3.1415926746632175" />
+    </Craft>
+    <Craft id="376" name="New" parent="Droo" position="-1218656.10652052,-349701.760548241,127159.012280959" velocity="-15.8524638597393,1E-09,-151.925542197373" heading="0.522834703972637,-0.420419770422404,-0.427676679132126,0.605797240697207" inContactWithPlanet="true" hasCommandPod="true" craftMass="24.7681751" craftPartCount="3" allowPlayerControl="true" waterDepth="0" initialNodes="376" surfacePosition="75817.7605234018,-349701.760548241,1222924.27711336" surfaceVelocity="-152.457639913898,0,9.45193177474507" surfaceRotation="0.081402025554545,0.115797262090964,-0.67054989364513,0.728240379649211">
+      <InitialCrafts>
+        <InitialCraft nodeId="376" name="New" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="31031796139.648964" launchMass="304703.2" launchPrice="167105254" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963268169503" eccentricity="0.99813108681840135" inclination="0.27801590352355593" prograde="true" rightAscensionOfAscendingNode="4.6084215708829221" semiMajorAxis="637695.46742139955" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="380" name="New" parent="Juno" position="28869868219212.7,-3074054423.17217,-37812617019975.4" velocity="2536.10344054595,-0.270130638597748,-3322.85882845546" heading="0.00392434420064092,-0.439570486545563,0.00801844801753759,-0.898163795471191" inContactWithPlanet="false" hasCommandPod="true" craftMass="11778.5059" craftPartCount="13" allowPlayerControl="true" waterDepth="0" initialNodes="380">
+      <InitialCrafts>
+        <InitialCraft nodeId="380" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="31032585887.431717" launchMass="15041731" launchPrice="3408838160" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.8847806600693469" eccentricity="1.5087448442395235" inclination="3.1415176556235895" prograde="false" rightAscensionOfAscendingNode="3.2612503283383543" semiMajorAxis="-7155960102.0299244" time="42410469105.126083" trueAnomaly="2.2951818089777154" />
+    </Craft>
+    <Craft id="411" name="New" parent="Juno" position="13658181619.3667,-17859417.1357138,-25034034202.9956" velocity="1301.44828812961,-0.0578196615646605,70.2354129973672" heading="0.670330345630646,-0.648063600063324,-0.259887903928757,0.251254975795746" inContactWithPlanet="false" hasCommandPod="true" craftMass="183270.563" craftPartCount="199" allowPlayerControl="true" waterDepth="0" initialNodes="411">
+      <InitialCrafts>
+        <InitialCraft nodeId="411" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="31439620291.790749" launchMass="193521008" launchPrice="37579763283" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="2.1672194856587259" eccentricity="0.7008228682192571" inclination="0.0006742846330809319" prograde="true" rightAscensionOfAscendingNode="0.11975448042706001" semiMajorAxis="17685744863.983818" time="42410469105.126083" trueAnomaly="2.924861826333617" />
+    </Craft>
+    <Craft id="443" name="Airplane-443" parent="Droo" position="1120315.4120232,552060.773600346,264426.388471246" velocity="-32.9021818174033,1E-09,139.39917869897" heading="0.148293857869697,0.624710303778725,0.397702638480026,0.655426333263004" inContactWithPlanet="true" hasCommandPod="false" craftMass="58.0941925" craftPartCount="9" allowPlayerControl="true" waterDepth="0" initialNodes="441" surfacePosition="311287.533275948,552060.773600346,-1108209.37054495" surfaceVelocity="137.892841982316,0,38.7330442946693" surfaceRotation="0.38228485306881,0.904536602157263,0.184436276758587,0.0407448345983288">
+      <InitialCrafts>
+        <InitialCraft nodeId="441" name="Airplane" launchPlanetName="Droo" launchLocationName="Juno Village Runway" launchLocationType="SurfaceLockedGround" launchTime="32116319013.622425" launchMass="28712.4355" launchPrice="28580974" initialCrewCount="2" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889803715686" eccentricity="0.998353661115866" inclination="0.44719051531650506" prograde="true" rightAscensionOfAscendingNode="4.9441754097528783" semiMajorAxis="638843.790246092" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="444" name="Airplane-444" parent="Droo" position="1120317.46003891,552050.323832262,264430.101855872" velocity="-32.9026941874889,1E-09,139.39964671895" heading="0.579294087196654,0.422653408081538,0.400249592766524,0.570603039884057" inContactWithPlanet="true" hasCommandPod="false" craftMass="58.0941849" craftPartCount="9" allowPlayerControl="true" waterDepth="0" initialNodes="441" surfacePosition="311291.329470895,552050.323832262,-1108211.26065014" surfaceVelocity="137.893288050002,0,38.7335758860779" surfaceRotation="0.695150501422232,0.699983754006883,-0.112013993313964,0.119358512895665">
+      <InitialCrafts>
+        <InitialCraft nodeId="441" name="Airplane" launchPlanetName="Droo" launchLocationName="Juno Village Runway" launchLocationType="SurfaceLockedGround" launchTime="32116319013.622425" launchMass="28712.4355" launchPrice="28580974" initialCrewCount="2" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889803715677" eccentricity="0.99835365045636282" inclination="0.44718217069758937" prograde="true" rightAscensionOfAscendingNode="4.9441781407169447" semiMajorAxis="638842.81664908584" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="447" name="Airplane-447" parent="Droo" position="830763.109558704,-955711.299549212,138398.555871044" velocity="-17.2583242655593,1E-09,103.596305918017" heading="0.398901729276965,-0.669269228048221,-0.298264272248334,-0.551361238039869" inContactWithPlanet="true" hasCommandPod="true" craftMass="1.19999993" craftPartCount="2" allowPlayerControl="true" waterDepth="0" initialNodes="446" surfacePosition="173199.14502276,-955711.299549212,-824210.871460831" surfaceVelocity="102.779240674478,0,21.5979638552414" surfaceRotation="0.0815095572667768,-0.864678085255078,-0.491365797510554,0.065209588842735">
+      <InitialCrafts>
+        <InitialCraft nodeId="446" name="Airplane" launchPlanetName="Droo" launchLocationName="Ali 28R" launchLocationType="SurfaceLockedGround" launchTime="32116319673.588169" launchMass="28712.4355" launchPrice="28580974" initialCrewCount="2" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963268004379" eccentricity="0.99911674828621722" inclination="0.84844234601076507" prograde="true" rightAscensionOfAscendingNode="1.7358724342254501" semiMajorAxis="637208.71777958306" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="451" name="Airplane" parent="Droo" position="-834548.69370667,917334.572693903,292564.943416852" velocity="-36.4732036628226,1E-09,-104.040710129567" heading="-0.433235828209869,-0.381233182405521,0.0786212356136391,0.812891096816412" inContactWithPlanet="true" hasCommandPod="true" craftMass="140.2388" craftPartCount="37" allowPlayerControl="true" waterDepth="0" initialNodes="451" surfacePosition="257224.267834933,917334.572693903,846109.593563858" surfaceVelocity="-105.481973221762,0,32.0673864687766" surfaceRotation="-0.258304070200914,0.287409283216908,0.356586006998988,0.850603634706995">
+      <InitialCrafts>
+        <InitialCraft nodeId="451" name="Airplane" launchPlanetName="Droo" launchLocationName="Ali 28R" launchLocationType="SurfaceLockedGround" launchTime="32116323212.390224" launchMass="28712.4355" launchPrice="28580974" initialCrewCount="2" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.712388980378627" eccentricity="0.99902642548039233" inclination="0.80370667171780441" prograde="true" rightAscensionOfAscendingNode="1.2336167821014674" semiMajorAxis="637406.91602259409" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="546" name="New-546" parent="Droo" position="617625.773552087,2451.79387481055,1114514.43879236" velocity="-138.941431020034,1E-09,76.9965877742837" heading="-0.692615609761736,0.683646881827864,0.0674954650749918,-0.219905316888094" inContactWithPlanet="true" hasCommandPod="false" craftMass="74587.46" craftPartCount="29" allowPlayerControl="true" waterDepth="0" initialNodes="542" surfacePosition="1139492.4984002,2451.79387481055,-570228.793136702" surfaceVelocity="71.0878224360097,0,142.055331769294" surfaceRotation="-0.453228570402866,0.34127425727134,0.528068047243265,-0.631872824416805">
+      <InitialCrafts>
+        <InitialCraft nodeId="542" name="New" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="32116523009.762379" launchMass="393653376" launchPrice="17467673428" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889771130223" eccentricity="0.9979788409754311" inclination="0.001924169646277941" prograde="true" rightAscensionOfAscendingNode="5.7771494238675665" semiMajorAxis="637749.28399850626" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="566" name="Super Mega Rocket-566" parent="Droo" position="857747.320759592,11124.8024126345,942135.398116149" velocity="-117.456667310898,1E-09,106.935947733972" heading="-0.386541454585972,0.410437923814885,-0.496365144678418,0.660112225096693" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="564" surfacePosition="977359.861963056,11124.8024126345,-817384.410713399" surfaceVelocity="101.903876010019,0,121.848125417178" surfaceRotation="-0.622538643545524,0.753114365376744,-0.0907649325338069,0.192421842086594">
+      <InitialCrafts>
+        <InitialCraft nodeId="564" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="32116523747.127609" launchMass="18162176" launchPrice="1055598517" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889796637037" eccentricity="0.99797907265563279" inclination="0.0087312262918170045" prograde="true" rightAscensionOfAscendingNode="5.5446381548543862" semiMajorAxis="637722.36065672908" time="42410469105.126083" trueAnomaly="3.1415926325163688" />
+    </Craft>
+    <Craft id="567" name="Super Mega Rocket-567" parent="Droo" position="857757.458274637,11116.6832720095,942126.384173738" velocity="-117.455535370315,1E-09,106.937204150042" heading="-0.145017774708815,0.288475420347221,0.26996563767087,0.907122093698212" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="564" surfacePosition="977351.282140944,11116.6832720095,-817394.918187958" surfaceVelocity="101.905178899052,0,121.847047293348" surfaceRotation="0.0821629349769852,0.836031629620106,0.295230161942286,0.455125955902596">
+      <InitialCrafts>
+        <InitialCraft nodeId="564" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="32116523747.127609" launchMass="18162176" launchPrice="1055598517" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.712388979663177" eccentricity="0.99797907229029625" inclination="0.0087248532705808436" prograde="true" rightAscensionOfAscendingNode="5.544627508599274" semiMajorAxis="637722.405111494" time="42410469105.126083" trueAnomaly="3.1415926325163688" />
+    </Craft>
+    <Craft id="576" name="Super Mega Rocket-576" parent="Droo" position="856622.541457165,-3521.32633774163,943054.552769891" velocity="-117.582372158524,1E-09,106.805815393348" heading="-0.800341506817028,-0.130630300377783,0.3355261425884,-0.479385994575883" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="575" surfacePosition="978230.92159344,-3521.32633774163,-816221.987005374" surfaceVelocity="101.768574424616,0,121.968248752882" surfaceRotation="-0.345486911166146,-0.426066819728015,0.796092382344555,-0.255621324464455">
+      <InitialCrafts>
+        <InitialCraft nodeId="575" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Bay" launchLocationType="SurfaceLockedGround" launchTime="32116524036.557392" launchMass="8783880" launchPrice="1044907267" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963290725449" eccentricity="0.99797912504276043" inclination="0.0027639189077015977" prograde="true" rightAscensionOfAscendingNode="2.4041840136926749" semiMajorAxis="637662.07010942127" time="42410469105.126083" trueAnomaly="3.1415926746632175" />
+    </Craft>
+    <Craft id="579" name="Super Mega Rocket-579" parent="Droo" position="856662.550992361,-3548.05387680413,943026.392418325" velocity="-117.578295175622,1E-09,106.810289824635" heading="-0.0482471001411401,0.140481848937789,-0.793265553131841,-0.590479732916549" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="575" surfacePosition="978204.468021762,-3548.05387680413,-816263.144955425" surfaceVelocity="101.773216285527,0,121.96436346625" surfaceRotation="-0.583832560802294,-0.307259969667615,-0.539200828847688,-0.523443177262055">
+      <InitialCrafts>
+        <InitialCraft nodeId="575" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Bay" launchLocationType="SurfaceLockedGround" launchTime="32116524036.557392" launchMass="8783880" launchPrice="1044907267" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963290553981" eccentricity="0.997979115551791" inclination="0.0027848842307171356" prograde="true" rightAscensionOfAscendingNode="2.4041459066235076" semiMajorAxis="637665.14207775588" time="42410469105.126083" trueAnomaly="3.1415926746632175" />
+    </Craft>
+    <Craft id="580" name="Super Mega Rocket-580" parent="Droo" position="856639.160186582,-3579.72575180413,943041.227286314" velocity="-117.580574743904,1E-09,106.807763953985" heading="-0.834495194036356,-0.441957322928065,0.140421112935505,-0.297611914211834" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="575" surfacePosition="978218.306493246,-3579.72575180413,-816239.151210193" surfaceVelocity="101.770596821036,0,121.966534839058" surfaceRotation="-0.505168818614722,-0.52498462643658,0.678899662147058,0.0910508450329773">
+      <InitialCrafts>
+        <InitialCraft nodeId="575" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Bay" launchLocationType="SurfaceLockedGround" launchTime="32116524036.557392" launchMass="8783880" launchPrice="1044907267" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.57079632903539" eccentricity="0.9979791232222629" inclination="0.0028097539738220359" prograde="true" rightAscensionOfAscendingNode="2.4041673256958851" semiMajorAxis="637662.8080298237" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="581" name="Super Mega Rocket-581" parent="Droo" position="856623.908513299,-3576.30924789788,943056.07990011" velocity="-117.582359273152,1E-09,106.805801181465" heading="0.660930722024773,0.732991493789113,0.0703678158624887,-0.144713137741717" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="575" surfacePosition="978232.504840914,-3576.30924789788,-816223.288656868" surfaceVelocity="101.76856076696,0,121.968235281473" surfaceRotation="0.525770985441677,0.428931360145952,-0.406627471287482,-0.611748548109954">
+      <InitialCrafts>
+        <InitialCraft nodeId="575" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Bay" launchLocationType="SurfaceLockedGround" launchTime="32116524036.557392" launchMass="8783880" launchPrice="1044907267" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963290375315" eccentricity="0.99797912203462491" inclination="0.0028070707194285606" prograde="true" rightAscensionOfAscendingNode="2.4041840254121172" semiMajorAxis="637663.17354295868" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="582" name="Super Mega Rocket-582" parent="Droo" position="856623.26587603,-3568.13639633538,943055.300267385" velocity="-117.58235732021,1E-09,106.805807579346" heading="-0.31717286639734,-0.787175786827524,-0.403605021395579,0.341845281487189" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="575" surfacePosition="978231.698882698,-3568.13639633538,-816222.67936121" surfaceVelocity="101.768567241282,0,121.968233599205" surfaceRotation="-0.508269403683574,-0.331610301515069,-0.0718181192301846,0.791541844514266">
+      <InitialCrafts>
+        <InitialCraft nodeId="575" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Bay" launchLocationType="SurfaceLockedGround" launchTime="32116524036.557392" launchMass="8783880" launchPrice="1044907267" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963290426665" eccentricity="0.99797912359906515" inclination="0.0028006580418351319" prograde="true" rightAscensionOfAscendingNode="2.40418398732748" semiMajorAxis="637662.65647296153" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="601" name="Super Mega Rocket" parent="Droo" position="862124.950458722,2396.54044604244,938532.189300063" velocity="-116.600310777159,-4.44767938461155E-05,107.877575513913" heading="0.109953738749027,-0.346807181835175,0.279933571815491,-0.888410270214081" inContactWithPlanet="true" hasCommandPod="true" craftMass="41856.0234" craftPartCount="3" allowPlayerControl="true" waterDepth="0" initialNodes="601" surfacePosition="973943.861358966,2396.54044604244,-821909.639484177" surfaceVelocity="102.448021276107,0,121.398529274893" surfaceRotation="0.273104154976697,-0.865186270581653,0.125963271947459,-0.401248934056973">
+      <InitialCrafts>
+        <InitialCraft nodeId="601" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="32116524610.296932" launchMass="7881018" launchPrice="1043395961" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7161142858078016" eccentricity="0.99797855629098975" inclination="0.0018805313974333874" prograde="true" rightAscensionOfAscendingNode="5.5364765958397655" semiMajorAxis="637847.14325204783" time="42410469105.126083" trueAnomaly="3.1415854240537517" />
+    </Craft>
+    <Craft id="602" name="Super Mega Rocket-602" parent="Droo" position="862110.238055715,2386.85055041256,938544.400689072" velocity="-116.602690237118,-1.47356768138707E-05,107.874951002223" heading="0.0548017583787441,0.916567087173462,0.31339305639267,-0.242252856492996" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="601" surfacePosition="973955.443485959,2386.85055041256,-821894.426754045" surfaceVelocity="102.446203669749,0,121.400066092043" surfaceRotation="0.256451363401435,0.493933438398059,0.188284716073943,-0.80920417136932">
+      <InitialCrafts>
+        <InitialCraft nodeId="601" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="32116524610.296932" launchMass="7881018" launchPrice="1043395961" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7160075941259931" eccentricity="0.99797855864551244" inclination="0.0018729285692673685" prograde="true" rightAscensionOfAscendingNode="5.5365982571067844" semiMajorAxis="637846.65306105337" time="42410469105.126083" trueAnomaly="3.1415854388574753" />
+    </Craft>
+    <Craft id="606" name="Super Mega Rocket-606" parent="Droo" position="862113.586030539,2416.88421511593,938541.265790672" velocity="-116.606541518365,-6.72071037115529E-05,107.871274640708" heading="0.932055532932281,0.226779639720917,-0.181734263896942,0.216370522975922" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="601" surfacePosition="973952.452098034,2416.88421511593,-821897.903551664" surfaceVelocity="102.446636016416,0,121.399692013098" surfaceRotation="0.546997246587047,0.313439961529006,-0.776240189632567,-0.000770994347000453">
+      <InitialCrafts>
+        <InitialCraft nodeId="601" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="32116524610.296932" launchMass="7881018" launchPrice="1043395961" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7161440251492479" eccentricity="0.99797854968292909" inclination="0.0018964965317638709" prograde="true" rightAscensionOfAscendingNode="5.5364581518314493" semiMajorAxis="637846.66212663252" time="42410469105.126083" trueAnomaly="3.1415855139273394" />
+    </Craft>
+    <Craft id="607" name="Super Mega Rocket-607" parent="Droo" position="862104.234190889,2407.08412051144,938550.165169886" velocity="-116.600507859187,-6.9069632445462E-05,107.87743644119" heading="0.9225053191185,0.244215682148933,0.273781716823578,-0.119942806661129" inContactWithPlanet="true" hasCommandPod="false" craftMass="190.263626" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="601" surfacePosition="973960.950485783,2407.08412051144,-821888.185873911" surfaceVelocity="102.445407930282,0,121.400731383659" surfaceRotation="0.855359429242263,0.0932682392333586,-0.440831825811848,-0.255594617696846">
+      <InitialCrafts>
+        <InitialCraft nodeId="601" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="32116524610.296932" launchMass="7881018" launchPrice="1043395961" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7162156682989771" eccentricity="0.9979785565020789" inclination="0.0018888067213105968" prograde="true" rightAscensionOfAscendingNode="5.5363967673192835" semiMajorAxis="637846.76492270327" time="42410469105.126083" trueAnomaly="3.1415853834569454" />
+    </Craft>
+    <Craft id="609" name="Super Mega Rocket-609" parent="Droo" position="862116.573316944,2407.35142397823,938536.294194993" velocity="-116.600617366442,-9.73172427620739E-05,107.8774934574" heading="0.649361789226532,-0.644380033016205,0.288347005844116,-0.282771676778793" inContactWithPlanet="true" hasCommandPod="false" craftMass="576.993" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="601" surfacePosition="973947.610474064,2407.35142397823,-821901.097189243" surfaceVelocity="102.44716741891,0,121.399246513611" surfaceRotation="0.668280424302871,-0.660825911613479,-0.241279882171909,0.241856447214946">
+      <InitialCrafts>
+        <InitialCraft nodeId="601" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="32116524610.296932" launchMass="7881018" launchPrice="1043395961" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7162950503837866" eccentricity="0.99797855622022646" inclination="0.0018890198183423269" prograde="true" rightAscensionOfAscendingNode="5.5363028616625583" semiMajorAxis="637845.83015992586" time="42410469105.126083" trueAnomaly="3.1415854132506591" />
+    </Craft>
+    <Craft id="610" name="Super Mega Rocket-610" parent="Droo" position="862112.248200247,2395.21825671139,938540.301028211" velocity="-116.602859609715,4.91796527057886E-07,107.874736429599" heading="0.602703332901001,-0.680186867713928,0.370611637830734,-0.191680431365967" inContactWithPlanet="true" hasCommandPod="false" craftMass="576.993" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="601" surfacePosition="973951.431949783,2395.21825671139,-821896.60745983" surfaceVelocity="102.44660762004,0,121.399722646759" surfaceRotation="0.691535695986929,-0.623628998942948,-0.149608331672457,0.332388947851314">
+      <InitialCrafts>
+        <InitialCraft nodeId="601" name="Super Mega Rocket" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="32116524610.296932" launchMass="7881018" launchPrice="1043395961" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7159513539190252" eccentricity="0.99797856172430366" inclination="0.0018794966456197094" prograde="true" rightAscensionOfAscendingNode="5.5366511492868291" semiMajorAxis="637845.82937603374" time="42410469105.126083" trueAnomaly="3.1415854491133572" />
+    </Craft>
+    <Craft id="645" name="Lunar Explorer" parent="Luna" position="-61903.7258528215,283143.208628024,-198581.955742298" velocity="3.30618395924882,1E-09,-1.03063294279331" heading="0.303513315382295,0.327487627216706,-0.56255790993364,0.69581661484203" inContactWithPlanet="true" hasCommandPod="true" craftMass="63.29323" craftPartCount="33" allowPlayerControl="true" waterDepth="0" initialNodes="645" surfacePosition="206739.091754309,283143.208628024,-22930.5988037975" surfaceVelocity="0.381770728653053,0,3.44199182827454" surfaceRotation="-0.627125109416645,0.328508082301681,0.123716715517395,-0.695335414405547">
+      <InitialCrafts>
+        <InitialCraft nodeId="645" name="Lunar Explorer" launchPlanetName="Luna" launchLocationName="Luna Base" launchLocationType="SurfaceLockedGround" launchTime="33853551817.80822" launchMass="15540.7734" launchPrice="561380" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.712388980259103" eccentricity="0.99997876748905534" inclination="0.93720161618369713" prograde="true" rightAscensionOfAscendingNode="2.8394104766159378" semiMajorAxis="175669.83373007408" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="672" name="New-672" parent="Droo" position="859748.259303149,2490.94951920648,936508.238534933" velocity="-117.016786732402,1E-09,107.425620579501" heading="-0.257241909585865,0.255947304076309,-0.658656073645224,0.659160361279209" inContactWithPlanet="true" hasCommandPod="false" craftMass="0.97656244" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="671" surfacePosition="971821.79030885,2490.94951920648,-819620.130364976" surfaceVelocity="102.411607341055,0,121.429218130931" surfaceRotation="-0.641527222996975,0.640941765591595,-0.297395399630915,0.298655379386854">
+      <InitialCrafts>
+        <InitialCraft nodeId="671" name="New" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="38286893821.70372" launchMass="788728.063" launchPrice="31497228" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.712388977171786" eccentricity="0.99798344566634023" inclination="0.0019593627062007152" prograde="true" rightAscensionOfAscendingNode="5.5404944695549529" semiMajorAxis="636294.95682342723" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="685" name="Lunar Explorer-685" parent="Juno" position="162285922583.964,116095409346.841,23070146732.2383" velocity="-385.640054809373,-355.949805031265,172.861633596607" heading="0.0516053810715675,0.785879075527191,-0.497542142868042,-0.363569438457489" inContactWithPlanet="false" hasCommandPod="false" craftMass="1" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="684">
+      <InitialCrafts>
+        <InitialCraft nodeId="684" name="Lunar Explorer" launchPlanetName="Luna" launchLocationName="Luna Base" launchLocationType="SurfaceLockedGround" launchTime="38289560349.765808" launchMass="10799.9395" launchPrice="704264" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.9610098511251328" eccentricity="0.92719695830549442" inclination="0.700007766017599" prograde="true" rightAscensionOfAscendingNode="4.2816681138173287" semiMajorAxis="133076123657.79945" time="42410469105.126083" trueAnomaly="3.350459795268109" />
+    </Craft>
+    <Craft id="686" name="Lunar Explorer-686" parent="Juno" position="166621997397.754,120091111168.998,21191705981.2418" velocity="-358.847031948208,-336.632946867583,176.113975278261" heading="-0.227439612150192,0.822018623352051,-0.0829690173268318,-0.515434563159943" inContactWithPlanet="false" hasCommandPod="false" craftMass="1" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="684">
+      <InitialCrafts>
+        <InitialCraft nodeId="684" name="Lunar Explorer" launchPlanetName="Luna" launchLocationName="Luna Base" launchLocationType="SurfaceLockedGround" launchTime="38289560349.765808" launchMass="10799.9395" launchPrice="704264" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.9610751203904364" eccentricity="0.92732417125071065" inclination="0.70007499324064737" prograde="true" rightAscensionOfAscendingNode="4.2816681265301444" semiMajorAxis="133310027359.53761" time="42410469105.126083" trueAnomaly="3.3376080174712226" />
+    </Craft>
+    <Craft id="704" name="New-704" parent="Droo" position="898011.236358124,168938.070414751,888427.0943029" velocity="-110.733753955574,1E-09,111.928323588833" heading="0.758595721814994,-0.453317821886793,-0.0941411774203387,-0.45844967991314" inContactWithPlanet="true" hasCommandPod="false" craftMass="182.04361" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="702" surfacePosition="925391.614641986,168938.070414751,-859870.479820791" surfaceVelocity="107.174451068321,0,115.341020130326" surfaceRotation="0.482412990768447,-0.644498189605166,-0.592965185545485,-0.0171820284209869">
+      <InitialCrafts>
+        <InitialCraft nodeId="702" name="New" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="41989429606.363159" launchMass="29828344" launchPrice="5297979547" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889803376189" eccentricity="0.99801394584796277" inclination="0.13294712016277638" prograde="true" rightAscensionOfAscendingNode="5.4924222510482457" semiMajorAxis="637867.08014545729" time="42410469105.126083" trueAnomaly="3.1415926325163688" />
+    </Craft>
+    <Craft id="758" name="Crew Carson 1-758" parent="Droo" position="754980.968049869,53004.0244264147,1024404.30415703" velocity="-127.762913790482,1E-09,94.160643354369" heading="0.671906319941774,0.276087594924413,-0.165352475628151,0.667067581413692" inContactWithPlanet="true" hasCommandPod="false" craftMass="2.2392" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="756" surfacePosition="1055236.03996551,53004.0244264147,-711250.546889679" surfaceVelocity="88.7066189950039,0,131.608224072883" surfaceRotation="0.370554921362386,0.660951820219227,-0.584370236514934,0.290424149888069">
+      <InitialCrafts>
+        <InitialCraft nodeId="756" name="Crew Carson 1" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="42409694185.50251" launchMass="146759.625" launchPrice="32260921" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889802335492" eccentricity="0.99798320404119989" inclination="0.04162754139782715" prograde="true" rightAscensionOfAscendingNode="5.6480594112321638" semiMajorAxis="637472.84035817417" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="791" name="Explorer Drone Pro-791" parent="Droo" position="859783.496711621,2490.70241364833,936545.642879453" velocity="-117.016730844876,1E-09,107.425681582632" heading="-0.257242153169714,0.255947646906232,-0.658656139720135,0.659160172691332" inContactWithPlanet="true" hasCommandPod="false" craftMass="0.97656244" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="790" surfacePosition="971860.642870507,2490.70241364833,-819653.764252611" surfaceVelocity="102.411670639615,0,121.429164857205" surfaceRotation="-0.641527444549179,0.64094188253298,-0.297395278744179,0.298655005993698">
+      <InitialCrafts>
+        <InitialCraft nodeId="790" name="Explorer Drone Pro" launchPlanetName="Droo" launchLocationName="DSC Large Pad" launchLocationType="SurfaceLockedGround" launchTime="42409951401.122643" launchMass="788182.063" launchPrice="31466028" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889771713374" eccentricity="0.99798336415940536" inclination="0.001959089152268161" prograde="true" rightAscensionOfAscendingNode="5.5404939487278178" semiMajorAxis="636320.70045049232" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="834" name="SimpleDrone-834" parent="Droo" position="866211.707242371,1501.18073153439,934483.481244347" velocity="-116.498714445869,1E-09,107.987516480574" heading="-0.761247961423775,0.623007809753968,-0.0097597271037318,0.179632784082708" inContactWithPlanet="true" hasCommandPod="false" craftMass="0.09827248" craftPartCount="10" allowPlayerControl="true" waterDepth="0" initialNodes="833" surfacePosition="970070.527842267,1501.18073153439,-826162.979982838" surfaceVelocity="102.994784843717,0,120.935224306977" surfaceRotation="-0.556235655850109,0.574018236196818,0.519803406012142,-0.301512378337817">
+      <InitialCrafts>
+        <InitialCraft nodeId="833" name="SimpleDrone" launchPlanetName="Droo" launchLocationName="DSC Westward Runway" launchLocationType="SurfaceLockedGround" launchTime="42409993694.427849" launchMass="1618.46082" launchPrice="345268" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889750412955" eccentricity="0.99797885228768057" inclination="0.0011781366145149233" prograde="true" rightAscensionOfAscendingNode="5.5356831181429467" semiMajorAxis="637744.23494820262" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="840" name="SimpleCargo-840" parent="Droo" position="-703645.847407088,-52007.789218032,-1371130.35476725" velocity="2667.5086057229,40.3482665174882,-1657.49208145107" heading="0.563818991184235,0.109381727874279,-0.426460146903992,-0.698767185211182" inContactWithPlanet="false" hasCommandPod="false" craftMass="32.95928" craftPartCount="11" allowPlayerControl="true" waterDepth="0" initialNodes="838">
+      <InitialCrafts>
+        <InitialCraft nodeId="838" name="SimpleCargo" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="42410431424.924454" launchMass="147912.672" launchPrice="12847215" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="3.0015211161235906" eccentricity="0.092240922886021259" inclination="0.03718509527309171" prograde="true" rightAscensionOfAscendingNode="5.3745984565887719" semiMajorAxis="1477323.6658107147" time="42410469105.126083" trueAnomaly="2.1450495220269619" />
+    </Craft>
+    <Craft id="868" name="SimpleDrone-868" parent="Droo" position="865765.843924871,7626.0101580763,935163.28492443" velocity="-116.563553862431,1E-09,107.913500462911" heading="-0.30428320989438,-0.842186002683241,-0.44463038913936,-0.0209362750105086" inContactWithPlanet="true" hasCommandPod="false" craftMass="7.161592" craftPartCount="52" allowPlayerControl="true" waterDepth="0" initialNodes="867" surfacePosition="970730.987777921,7626.0101580763,-825688.933767008" surfaceVelocity="102.918108587359,0,120.996894984951" surfaceRotation="-0.527358474027486,-0.622393162584522,-0.110351628750441,0.567751980102086">
+      <InitialCrafts>
+        <InitialCraft nodeId="867" name="SimpleDrone" launchPlanetName="Droo" launchLocationName="DSC Eastward Runway" launchLocationType="SurfaceLockedGround" launchTime="42410451250.650696" launchMass="1618.46082" launchPrice="345268" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7123889793326805" eccentricity="0.99797857665024492" inclination="0.0059839557148341788" prograde="true" rightAscensionOfAscendingNode="5.5363023319776756" semiMajorAxis="637853.250878785" time="42410469105.126083" trueAnomaly="3.1415926325163688" />
+    </Craft>
+    <Craft id="870" name="SimpleDrone-870" parent="Droo" position="864671.781349384,973.712042569543,936184.562298195" velocity="-116.60055248194,-0.00171798840165138,107.876430626397" heading="-0.267946302890778,-0.299174696207047,0.5837362408638,0.705656707286835" inContactWithPlanet="true" hasCommandPod="false" craftMass="7.98860836" craftPartCount="52" allowPlayerControl="true" waterDepth="0" initialNodes="869" surfacePosition="971705.371100864,973.712042569543,-824552.906684048" surfaceVelocity="102.777750234729,0,121.119810655179" surfaceRotation="0.210586995880838,0.272425136555864,0.606791825328521,0.716408686934024">
+      <InitialCrafts>
+        <InitialCraft nodeId="869" name="SimpleDrone" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="42410451896.845955" launchMass="1618.46082" launchPrice="345268" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7273895270465314" eccentricity="0.99797855225397214" inclination="0.00076414026233050125" prograde="true" rightAscensionOfAscendingNode="5.5224778811389141" semiMajorAxis="637845.55174337164" time="42410469105.126083" trueAnomaly="3.1415909422902009" />
+    </Craft>
+    <Craft id="874" name="SimpleCrew" parent="Droo" position="864170.572299365,-298.414300203895,936372.233609706" velocity="-116.734197326267,1E-09,107.7330729057" heading="-0.258075422642371,-0.2453715309475,-0.675839236387284,-0.645314912527952" inContactWithPlanet="true" hasCommandPod="true" craftMass="30.4564838" craftPartCount="9" allowPlayerControl="true" waterDepth="3.7108894129762731" initialNodes="874" surfacePosition="971871.807111757,-298.414300203895,-824044.251508843" surfaceVelocity="102.730667151867,0,121.159802944891" surfaceRotation="-0.654021071774619,-0.623725776927169,-0.309221622850349,-0.295980842146539">
+      <InitialCrafts>
+        <InitialCraft nodeId="874" name="SimpleCrew" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="42410452490.566139" launchMass="259454.3" launchPrice="22719640" initialCrewCount="3" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963536749907" eccentricity="0.99797884991999264" inclination="0.00023419751163833587" prograde="true" rightAscensionOfAscendingNode="2.3962729319553855" semiMajorAxis="637744.13257988577" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+    <Craft id="876" name="SimpleCrew-876" parent="Droo" position="864261.394671166,-27.7133724695195,936288.295634828" velocity="-116.723743693201,1E-09,107.74440520708" heading="0.20842513366734,0.920375835878519,-0.0808640249086754,-0.320824474360333" inContactWithPlanet="true" hasCommandPod="true" craftMass="27.1449814" craftPartCount="29" allowPlayerControl="true" waterDepth="1.8802081777695057" initialNodes="874" surfacePosition="971791.761249185,-27.7133724695195,-824138.522112592" surfaceVelocity="102.742428877144,0,121.149834930175" surfaceRotation="0.0944798726061164,0.442304433252261,-0.202616826445782,-0.868554413647556">
+      <InitialCrafts>
+        <InitialCraft nodeId="874" name="SimpleCrew" launchPlanetName="Droo" launchLocationName="DSC Launch Pad" launchLocationType="SurfaceLockedGround" launchTime="42410452490.566139" launchMass="259454.3" launchPrice="22719640" initialCrewCount="3" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707966162365348" eccentricity="0.99797884999391218" inclination="2.1749642180399279E-05" prograde="true" rightAscensionOfAscendingNode="2.3961756123209308" semiMajorAxis="637744.07455446373" time="42410469105.126083" trueAnomaly="3.1415926746632175" />
+    </Craft>
+    <Craft id="887" name="SimpleTransporter" parent="Droo" position="863727.919084245,1807.79163241329,937060.187015262" velocity="-116.598777494533,-0.00185269280336797,107.874941101336" heading="-0.251886546611786,0.287948280572891,0.661174535751343,-0.645358204841614" inContactWithPlanet="true" hasCommandPod="true" craftMass="3431.50879" craftPartCount="181" allowPlayerControl="true" waterDepth="0" initialNodes="887" surfacePosition="972540.544512522,1807.79163241329,-823573.069966451" surfaceVelocity="102.655262660397,0,121.22349392615" surfaceRotation="0.275773053843331,-0.238796868669521,0.651573326655239,-0.665114620611973">
+      <InitialCrafts>
+        <InitialCraft nodeId="887" name="SimpleTransporter" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="42410454071.14756" launchMass="343150.875" launchPrice="10364785" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7224704030811564" eccentricity="0.99797860970888264" inclination="0.0014186090299352137" prograde="true" rightAscensionOfAscendingNode="5.52840930140586" semiMajorAxis="637847.736092293" time="42410469105.126083" trueAnomaly="3.1415888945374433" />
+    </Craft>
+    <Craft id="891" name="SimpleTransporter-891" parent="Droo" position="863613.081041239,1613.35748934689,937159.648243444" velocity="-116.601176423562,-0.000124489422887564,107.876781952876" heading="-0.0735170468688011,-0.376318126916885,-0.375702142715454,-0.843699038028717" inContactWithPlanet="true" hasCommandPod="false" craftMass="17.86678" craftPartCount="8" allowPlayerControl="true" waterDepth="0" initialNodes="889" surfacePosition="972635.090355821,1613.35748934689,-823454.152366627" surfaceVelocity="102.640838732527,0,121.235749638142" surfaceRotation="-0.313083532364604,-0.855543784586491,-0.220307856384988,-0.348551566934098">
+      <InitialCrafts>
+        <InitialCraft nodeId="889" name="SimpleTransporter" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="42410454238.397049" launchMass="343150.875" launchPrice="10364785" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.714985291778655" eccentricity="0.99797854183696866" inclination="0.0012659775971188168" prograde="true" rightAscensionOfAscendingNode="5.5360138123567042" semiMajorAxis="637845.28038058965" time="42410469105.126083" trueAnomaly="3.14158865668835" />
+    </Craft>
+    <Craft id="892" name="SimpleTransporter-892" parent="Droo" position="863591.445919054,1756.26550936642,937178.143645427" velocity="-116.599900420891,2.97038932330906E-05,107.878018376026" heading="0.816098034381866,0.173695892095566,0.394724994897842,-0.38471531867981" inContactWithPlanet="true" hasCommandPod="false" craftMass="24.0186462" craftPartCount="3" allowPlayerControl="true" waterDepth="0" initialNodes="889" surfacePosition="972652.659929523,1756.26550936642,-823431.758874574" surfaceVelocity="102.638117609709,0,121.238022492218" surfaceRotation="0.862255932342542,-0.140879114574592,-0.279890147342808,-0.397906027417989">
+      <InitialCrafts>
+        <InitialCraft nodeId="889" name="SimpleTransporter" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="42410454238.397049" launchMass="343150.875" launchPrice="10364785" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7142641180746114" eccentricity="0.99797854595581059" inclination="0.0013781141841139059" prograde="true" rightAscensionOfAscendingNode="5.5367573733535362" semiMajorAxis="637844.84319193836" time="42410469105.126083" trueAnomaly="3.1415885887944603" />
+    </Craft>
+    <Craft id="893" name="SimpleTransporter-890-893" parent="Droo" position="863824.63001434,1383.02991366329,936963.888861523" velocity="-116.601986707304,1.01239420473576E-05,107.875661520594" heading="-0.0445923544466496,0.396087050437927,-0.0272585153579712,-0.916724443435669" inContactWithPlanet="true" hasCommandPod="false" craftMass="1418.809" craftPartCount="1" allowPlayerControl="true" waterDepth="0" initialNodes="889" surfacePosition="972448.396935201,1383.02991366329,-823673.743510182" surfaceVelocity="102.668277359298,0,121.212558395597" surfaceRotation="-0.0510526868966612,-0.34854900071862,0.0111860527441348,-0.935832360669309">
+      <InitialCrafts>
+        <InitialCraft nodeId="889" name="SimpleTransporter" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="42410454238.397049" launchMass="343150.875" launchPrice="10364785" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.714072240995554" eccentricity="0.99797854562668931" inclination="0.0010852414975122122" prograde="true" rightAscensionOfAscendingNode="5.5367002223312207" semiMajorAxis="637844.8603921819" time="42410469105.126083" trueAnomaly="3.141589132214925" />
+    </Craft>
+    <Craft id="894" name="SimpleTransporter-892-894" parent="Droo" position="863579.861614557,1745.15259432736,937188.649270627" velocity="-116.600481915924,-2.61253444477916E-05,107.877385976605" heading="-0.279466956853867,-0.605563461780548,0.684628427028656,-0.294066339731216" inContactWithPlanet="true" hasCommandPod="false" craftMass="13.4780951" craftPartCount="2" allowPlayerControl="true" waterDepth="0" initialNodes="889" surfacePosition="972662.669296918,1745.15259432736,-823419.743183338" surfaceVelocity="102.636631128578,0,121.239283400251" surfaceRotation="0.272097148822997,-0.640624346789899,0.687590707323814,0.206839418200058">
+      <InitialCrafts>
+        <InitialCraft nodeId="889" name="SimpleTransporter" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="42410454238.397049" launchMass="343150.875" launchPrice="10364785" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7145267835415279" eccentricity="0.99797854630012539" inclination="0.0013693949174517404" prograde="true" rightAscensionOfAscendingNode="5.5365069924885768" semiMajorAxis="637844.77327207674" time="42410469105.126083" trueAnomaly="3.1415885748885484" />
+    </Craft>
+    <Craft id="906" name="SimpleTransporter-892-906" parent="Droo" position="863585.344604394,1744.36994051876,937183.883068898" velocity="-116.598895291901,1.73889857251197E-05,107.878925533839" heading="0.552551865577698,0.291354328393936,0.247742608189583,-0.740555703639984" inContactWithPlanet="true" hasCommandPod="false" craftMass="13.4780951" craftPartCount="2" allowPlayerControl="true" waterDepth="0" initialNodes="889" surfacePosition="972658.137797639,1744.36994051876,-823425.421684087" surfaceVelocity="102.637322072728,0,121.238698644522" surfaceRotation="0.570299768827319,-0.302223069130644,-0.203588117856517,-0.736186989632053">
+      <InitialCrafts>
+        <InitialCraft nodeId="889" name="SimpleTransporter" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="42410454238.397049" launchMass="343150.875" launchPrice="10364785" initialCrewCount="0" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="4.7143349232427365" eccentricity="0.99797854906560335" inclination="0.0013687800203953146" prograde="true" rightAscensionOfAscendingNode="5.5366931712577836" semiMajorAxis="637844.8772050743" time="42410469105.126083" trueAnomaly="3.1415885583180008" />
+    </Craft>
+    <Craft id="910" name="Wasp 3.1" parent="Droo" position="806476.852725798,-471873.336078188,866313.657471479" velocity="-108.000746425736,1E-09,100.541069990383" heading="-0.45921568918285,-0.370618374949249,0.806196398351761,-0.042545656603836" inContactWithPlanet="true" hasCommandPod="true" craftMass="112.487938" craftPartCount="149" allowPlayerControl="true" waterDepth="0" initialNodes="910" surfacePosition="899449.878940478,-471873.336078188,-769346.594441074" surfaceVelocity="95.9121511511774,0,112.131740577237" surfaceRotation="0.226486948925285,-0.296963542220794,0.899741799790896,0.225789196512338">
+      <InitialCrafts>
+        <InitialCraft nodeId="910" name="Wasp 3.1" launchPlanetName="Droo" launchLocationName="DSC Secondary Runway" launchLocationType="SurfaceLockedGround" launchTime="42410461315.460281" launchMass="16626.8242" launchPrice="11209078" initialCrewCount="1" />
+      </InitialCrafts>
+      <Orbit argumentOfPeriapsis="1.5707963268106824" eccentricity="0.99825604871187934" inclination="0.37936536113520458" prograde="true" rightAscensionOfAscendingNode="2.3919498957521586" semiMajorAxis="637652.69639192184" time="42410469105.126083" trueAnomaly="3.1415926535897931" />
+    </Craft>
+  </Nodes>
+  <MapView>
+    <MapOptions gizmoAlignment="ReferenceOrbit" maneuverNodeSensitivityLinear="0.49895045161247253" orbitUiVerbosity="High" fontSize="Small" version="2" />
+    <ManeuverNodes>
+      <NodeChain craftId="145" />
+      <NodeChain craftId="245" />
+      <NodeChain craftId="261" />
+      <NodeChain craftId="288" />
+      <NodeChain craftId="295" />
+      <NodeChain craftId="314" />
+      <NodeChain craftId="335" />
+      <NodeChain craftId="351" />
+      <NodeChain craftId="352" />
+      <NodeChain craftId="354" />
+      <NodeChain craftId="355" />
+      <NodeChain craftId="356" />
+      <NodeChain craftId="376" />
+      <NodeChain craftId="380" />
+      <NodeChain craftId="411">
+        <Node type="SoiEnterNodeScript" nuOnPrev="4.0890529150144745">
+          <Node type="SoiExitNodeScript" nuOnPrev="1.1244560560956856" />
+        </Node>
+      </NodeChain>
+      <NodeChain craftId="451" />
+      <NodeChain craftId="601" />
+      <NodeChain craftId="645" />
+      <NodeChain craftId="874" />
+      <NodeChain craftId="887" />
+      <NodeChain craftId="910" />
+      <NodeChain craftId="949" />
+    </ManeuverNodes>
+    <MapItems>
+      <StructureDefaults showOrbitLines="false" showIcons="true" />
+      <CraftDefaults showOrbitLines="true" showIcons="true" />
+      <PlanetDefaults showOrbitLines="true" showIcons="true" showSpheresOfInfluence="true" />
+      <MapItem id="261" type="Craft" showOrbit="true" />
+      <MapItem id="887" type="Craft" showOrbit="true" />
+    </MapItems>
+  </MapView>
+</FlightState>
