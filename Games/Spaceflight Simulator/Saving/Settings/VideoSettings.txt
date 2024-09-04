@@ -1,9 +1,0 @@
-{
-  "freeOrientation": true,
-  "fps": 144,
-  "menuScale": 0.74999994,
-  "menuOpacity": 1.0,
-  "cameraShake": true,
-  "orbitLinesCount": 6,
-  "FXAA": true
-}

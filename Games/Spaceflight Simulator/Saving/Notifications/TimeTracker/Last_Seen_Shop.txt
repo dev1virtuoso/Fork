@@ -1,5 +1,0 @@
-{
-  "gameTimeSeconds": 3000,
-  "realTimeSeconds": 63820975829,
-  "sessionCount": 0
-}
