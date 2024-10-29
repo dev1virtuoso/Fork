@@ -1,6 +1,6 @@
 {
   "freeOrientation": true,
-  "fps": 30,
+  "fps": 60,
   "menuScale": 0.74999994,
   "menuOpacity": 1.0,
   "cameraShake": true,
