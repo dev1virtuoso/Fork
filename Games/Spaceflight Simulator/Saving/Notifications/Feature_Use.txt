@@ -1,13 +1,13 @@
 {
   "features": {
     "AreaSelect": {
-      "timesUsed": 4098
+      "timesUsed": 4147
     },
     "Symmetry": {
-      "timesUsed": 4401
+      "timesUsed": 4449
     },
     "Stages": {
-      "timesUsed": 16473
+      "timesUsed": 16785
     },
     "DoubleClickSelect": {
       "timesUsed": 90
