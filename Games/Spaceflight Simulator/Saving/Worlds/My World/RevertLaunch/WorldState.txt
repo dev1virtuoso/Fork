@@ -1,1 +1,1 @@
-{"worldTime":192273284.91409898,"timewarpPhase":0,"mapView":false,"mapPosition":{"x":365.02282507980334,"y":630026.09425703716,"z":409516.96126707416},"mapAddress":"Earth","targetAddress":"null","playerAddress":"null","cameraDistance":32.0}
+{"worldTime":295882051.04377806,"timewarpPhase":0,"mapView":false,"mapPosition":{"x":365.02282507980334,"y":630026.09425703716,"z":409516.96126707416},"mapAddress":"Earth","targetAddress":"null","playerAddress":"null","cameraDistance":32.0}
