@@ -1,0 +1,106 @@
+# Games
+
+This folder included the fork of games, Juno: New Origins Complete Edition and Spaceflight Simulator
+
+## Juno: New Origins Complete Edition
+
+## Spaceflight Simulator
+
+### Spacecrafts
+
+- Aero I
+- Apollo family
+  - Apollo Block 0
+  - Apollo Block 1
+- C1 Rocket family
+  - C1 Rocket
+    - C1 Rocket Block 0
+    - C1 Rocket Block 1
+    - C1 Rocket Block 2
+    - C1 Rocket Block 3
+    - C1 Rocket Block 3.1
+    - C1 Rocket Block 3.2
+    - C1 Rocket Block 3.3
+    - C1 Rocket Block 3.4
+    - C1 Rocket Block 3.5
+  - C1 Rocket heavy (C1 Rocket H)
+    - C1 Rocket heavy Block 0
+    - C1 Rocket heavy Block 1
+    - C1 Rocket heavy Block 2
+    - C1 Rocket heavy Block 3
+    - C1 Rocket H Block 3.1
+- C1 Landing Zone (C1LZ) family
+   - C1LZ Block 0
+   - C1LZ Block 0.1
+   - C1LZ Block 0.2
+   - C1LZ Block 0.3
+   - C1LZ Block 0.4
+   - C1LZ Block 0.5
+- Carson Atlas V (CAtlas V) family
+  - CAtlas V
+    - CAtlas V Block 1
+  - CAtlas V 521
+- CarsonLink  (CLink) family
+  - CLink Block 0
+  - CLink Block 1
+- Carson Launch System (CLS) family
+  - CLS Block 0
+  - CLS Block 1
+  - CLS Block 2
+  - CLS Block 2 Cargo
+  - CLS Block 3
+  - CLS Block 3 Cargo
+  - CLS Block 3.1
+  - CLS Block 3.1 Cargo
+- Carson New Shepard (CNew Shepard) family
+- Crew Carson family
+  - Crew Carson 1
+  - Crew Carson 2
+  - Crew Carson 3
+  - Crew Carson 4
+  - Crew Carson 5
+  - Crew Carson 6
+  - Crew Carson 7
+  - Crew Carson 8
+  - Crew Carson 9
+  - Crew Carson 10
+  - Crew Carson 11
+  - Crew Carson 11.1
+  - Crew Carson 11.2
+  - Crew Carson 11.3
+  - Crew Carson 11.4
+  - Crew Carson 11.5
+  - Crew Carson 11.6
+  - Crew Carson 11.7
+- Carson SpaceX Starship (CS) family
+  - CS Block 0
+  - CS Block 1
+  - CS Block 2
+  - CS Block 3
+  - CS Block 3.1
+  - CS Block 3.2
+  - CS Block 3.3
+  - CS Block 3.4
+  - CS Block 3.5
+  - CS Block 3.6
+  - CS Block 3.7
+  - CS Block 3.8
+  - CS Block 3.9
+  - CS Block 3.10
+  - CS Block 3.11
+  - CS Block 3.12
+  - CS Block 3.13
+- Carson Space Station (CSpace Station/CSS)
+- Falcon Heavy 
+- Firework family
+  - Firework Block 0
+  - Firework Block 0.1
+- Mega Rocket family
+  - Mega Rocket Block 0
+- Simple Lander
+- Simple Mars Rover
+- Star Shuttle family
+  - Star Shuttle Block 0
+  - Star Shuttle Block 0.1
+  - Star Shuttle Block 0.2
+- Tank
