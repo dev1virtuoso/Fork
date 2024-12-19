@@ -37,22 +37,6 @@
       "n": "Strut",
       "p": {
         "x": 1.0,
-        "y": -4.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 1.0,
         "y": 25.5
       },
       "o": {
@@ -116,22 +100,6 @@
     {
       "n": "Strut",
       "p": {
-        "x": 1.0,
-        "y": 1.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
         "x": 19.0,
         "y": 25.5
       },
@@ -181,70 +149,6 @@
       "n": "Strut",
       "p": {
         "x": 19.0,
-        "y": 1.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 3.5,
-        "y": -4.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 16.5,
-        "y": -4.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 19.0,
-        "y": -4.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 19.0,
         "y": 13.5
       },
       "o": {
@@ -255,110 +159,6 @@
       "t": "-Infinity",
       "N": {
         "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 14.5,
-        "y": -6.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 15.0,
-        "y": -5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 180.000031
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 15.0,
-        "y": -5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 180.000031
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 5.0,
-        "y": -5.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 180.000031
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 5.5,
-        "y": -6.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 5.0,
-        "y": -5.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": -1.0,
-        "z": 180.000031
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
       }
     },
     {
@@ -685,42 +485,6 @@
       }
     },
     {
-      "n": "Docking Port",
-      "p": {
-        "x": 13.5,
-        "y": -3.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 90.00003
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 6.5,
-        "y": -3.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 90.00003
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
       "n": "RCS",
       "p": {
         "x": 13.0,
@@ -864,23 +628,6 @@
       "t": "-Infinity"
     },
     {
-      "n": "Landing Leg Big",
-      "p": {
-        "x": 7.5,
-        "y": 38.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state": 0.0,
-        "state_target": 0.0
-      }
-    },
-    {
       "n": "Docking Port",
       "p": {
         "x": 13.5,
@@ -894,8 +641,8 @@
       "t": "-Infinity",
       "N": {
         "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
+        "force_multiplier": 1.0,
+        "sep_force_multiplier": 1.0
       }
     },
     {
@@ -912,8 +659,8 @@
       "t": "-Infinity",
       "N": {
         "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
+        "force_multiplier": 1.0,
+        "sep_force_multiplier": 1.0
       }
     },
     {
@@ -930,8 +677,8 @@
       "t": "-Infinity",
       "N": {
         "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
+        "force_multiplier": 1.0,
+        "sep_force_multiplier": 1.0
       }
     },
     {
@@ -948,8 +695,8 @@
       "t": "-Infinity",
       "N": {
         "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
+        "force_multiplier": 1.0,
+        "sep_force_multiplier": 1.0
       }
     },
     {
@@ -1235,42 +982,6 @@
       "N": {
         "state": 0.0,
         "state_target": 0.0
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 13.0,
-        "y": 47.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 90.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width": 6.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 7.0,
-        "y": 47.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 90.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width": 6.0,
-        "shield_temp": "-Infinity"
       }
     },
     {
@@ -1663,178 +1374,6 @@
         "engine_on": false,
         "heat_on__for_creative_use": true,
         "gimbal_on": true
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 14.0,
-        "y": -3.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 13.5,
-        "y": -3.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 90.00003
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 6.5,
-        "y": -3.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 90.00003
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 6.0,
-        "y": -3.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 3.0,
-        "y": -3.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 17.0,
-        "y": -3.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 15.5,
-        "y": 51.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 90.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width": 2.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 4.5,
-        "y": 51.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": -270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width": 2.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 15.5,
-        "y": 40.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 90.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width": 2.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 4.5,
-        "y": 40.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 90.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width": 2.0,
-        "shield_temp": "-Infinity"
       }
     },
     {
@@ -2430,8 +1969,8 @@
       "t": "-Infinity",
       "N": {
         "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
+        "force_multiplier": 1.0,
+        "sep_force_multiplier": 1.0
       }
     },
     {
@@ -2448,8 +1987,8 @@
       "t": "-Infinity",
       "N": {
         "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
+        "force_multiplier": 1.0,
+        "sep_force_multiplier": 1.0
       }
     },
     {
@@ -2466,8 +2005,8 @@
       "t": "-Infinity",
       "N": {
         "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
+        "force_multiplier": 1.0,
+        "sep_force_multiplier": 1.0
       }
     },
     {
@@ -2484,44 +2023,8 @@
       "t": "-Infinity",
       "N": {
         "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 14.5,
-        "y": -5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 5.5,
-        "y": -5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
+        "force_multiplier": 1.0,
+        "sep_force_multiplier": 1.0
       }
     },
     {
@@ -2559,22 +2062,6 @@
     {
       "n": "Strut",
       "p": {
-        "x": 16.0,
-        "y": -13.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
         "x": 4.0,
         "y": -13.0
       },
@@ -2586,38 +2073,6 @@
       "t": "-Infinity",
       "N": {
         "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 21.5,
-        "y": -11.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -1.5,
-        "y": -11.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": -90.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
       }
     },
     {
@@ -2636,22 +2091,6 @@
         "width_original": 6.0,
         "width": 6.0,
         "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -2.0,
-        "y": -14.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
       }
     },
     {
@@ -2688,54 +2127,6 @@
         "width_original": 6.0,
         "width": 6.0,
         "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 22.0,
-        "y": -14.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 21.5,
-        "y": -13.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -1.5,
-        "y": -13.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
       }
     },
     {
@@ -3356,55 +2747,7 @@
       "n": "Fuel Tank",
       "p": {
         "x": 10.0,
-        "y": 15.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
         "y": 7.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": 15.0
       },
       "o": {
         "x": 1.0,
@@ -4118,60 +3461,6 @@
     {
       "n": "Engine Titan",
       "p": {
-        "x": 8.5,
-        "y": -5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": true,
-        "gimbal_on": false
-      }
-    },
-    {
-      "n": "Engine Titan",
-      "p": {
-        "x": 8.5,
-        "y": -5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": true,
-        "gimbal_on": false
-      }
-    },
-    {
-      "n": "Engine Titan",
-      "p": {
-        "x": 11.5,
-        "y": -5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": true,
-        "gimbal_on": false
-      }
-    },
-    {
-      "n": "Engine Titan",
-      "p": {
         "x": 11.5,
         "y": -5.0
       },
@@ -4347,222 +3636,6 @@
         "engine_on": false,
         "heat_on__for_creative_use": true,
         "gimbal_on": false
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "_"
       }
     },
     {
@@ -4730,61 +3803,7 @@
     {
       "n": "Heat Shield",
       "p": {
-        "x": 16.0,
-        "y": -11.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width": 6.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 10.0,
-        "y": -11.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width": 6.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
         "x": 6.5,
-        "y": -11.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width": 6.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 4.0,
         "y": -11.0
       },
       "o": {
@@ -4893,24 +3912,6 @@
       "n": "Heat Shield",
       "p": {
         "x": 6.5,
-        "y": -11.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width": 6.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 4.0,
         "y": -11.0
       },
       "o": {
@@ -5222,42 +4223,6 @@
     {
       "n": "Heat Shield",
       "p": {
-        "x": 14.5,
-        "y": -5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 5.5,
-        "y": -5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
         "x": 16.0,
         "y": -12.0
       },
@@ -5357,554 +4322,6 @@
         "width_original": 5.0,
         "width": 5.0,
         "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 2.0,
-        "y": -3.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 18.0,
-        "y": -3.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 4.5,
-        "y": -2.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 4.0,
-        "width": 4.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 15.5,
-        "y": -2.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 4.0,
-        "width": 4.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 18.5,
-        "y": 37.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 4.0,
-        "width": 4.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 1.5,
-        "y": 37.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 4.0,
-        "width": 4.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 16.5,
-        "y": -8.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 5.0,
-        "width": 5.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 3.5,
-        "y": -8.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": -90.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 5.0,
-        "width": 5.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 15.5,
-        "y": -6.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 4.5,
-        "y": -6.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 17.0,
-        "y": -7.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 3.0,
-        "y": -7.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 17.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 3.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 2.0,
-        "y": -8.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 18.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 2.0,
-        "y": -9.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 18.0,
-        "y": -7.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 2.0,
-        "y": -7.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 19.0,
-        "y": -8.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 1.0,
-        "y": -8.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": -90.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 17.0,
-        "y": -8.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Heat Shield",
-      "p": {
-        "x": 3.0,
-        "y": -8.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 3.0,
-        "width": 3.0,
-        "shield_temp": "-Infinity"
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 18.0,
-        "y": -8.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 15.0,
-        "y": -3.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 5.0,
-        "y": -3.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 15.0,
-        "y": -3.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Color_Orange",
-        "shape_tex": "Rivets"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 5.0,
-        "y": -3.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Color_Orange",
-        "shape_tex": "Rivets"
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 15.0,
-        "y": 36.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 4.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 19.0,
-        "y": 37.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 1.0,
-        "y": 37.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
       }
     },
     {
@@ -5942,22 +4359,6 @@
     {
       "n": "Strut",
       "p": {
-        "x": 5.0,
-        "y": 36.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 4.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
         "x": 1.0,
         "y": 31.5
       },
@@ -5981,342 +4382,6 @@
         "x": 1.0,
         "y": 1.0,
         "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 25.0,
-        "y": -14.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Color_Orange",
-        "shape_tex": "Rivets"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": -5.0,
-        "y": -14.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 6.0,
-        "width_a": 6.0,
-        "width_b": 6.0,
-        "height": 8.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Color_Orange",
-        "shape_tex": "Rivets"
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 19.5,
-        "y": 34.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 4.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 0.5,
-        "y": 34.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 4.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 23.5,
-        "y": 35.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -3.5,
-        "y": 35.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 23.5,
-        "y": 29.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -3.5,
-        "y": 29.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 23.5,
-        "y": 17.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 23.5,
-        "y": 23.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -3.5,
-        "y": 17.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -3.5,
-        "y": 23.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 23.5,
-        "y": 11.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 23.5,
-        "y": -1.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 23.5,
-        "y": 5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -3.5,
-        "y": 11.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -3.5,
-        "y": -1.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -3.5,
-        "y": 5.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 22.0,
-        "y": -6.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 6.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": -2.0,
-        "y": -6.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
       },
       "t": "-Infinity",
       "N": {
@@ -6358,8 +4423,1093 @@
     {
       "n": "Strut",
       "p": {
+        "x": 19.0,
+        "y": 1.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 2.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 1.0,
+        "y": 1.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": -90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 2.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": 15.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 16.0,
+        "y": -13.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 19.0,
+        "y": -0.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 1.0,
+        "y": -0.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 19.0,
+        "y": -6.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 1.0,
+        "y": -6.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": -90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 5.0,
+        "y": 36.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Landing Leg Big",
+      "p": {
+        "x": 7.0,
+        "y": 38.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
         "x": 15.0,
-        "y": 33.0
+        "y": 36.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Engine Titan",
+      "p": {
+        "x": 11.5,
+        "y": -5.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": true,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Titan",
+      "p": {
+        "x": 8.5,
+        "y": -5.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": true,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Titan",
+      "p": {
+        "x": 8.5,
+        "y": -5.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": true,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 10.0,
+        "y": -11.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width": 6.0,
+        "shield_temp": "-Infinity"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": -9.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": -9.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": -9.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": -9.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": -9.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": -9.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": -9.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": -9.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": -9.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 13.5,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.95,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 6.5,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": -90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.95,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 16.0,
+        "y": -11.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width": 6.0,
+        "shield_temp": "-Infinity"
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 4.0,
+        "y": -11.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width": 6.0,
+        "shield_temp": "-Infinity"
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 19.0,
+        "y": -7.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width": 6.0,
+        "shield_temp": "-Infinity"
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 1.0,
+        "y": -7.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width": 6.0,
+        "shield_temp": "-Infinity"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": 15.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 21.5,
+        "y": -11.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 21.5,
+        "y": -13.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": -1.5,
+        "y": -11.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": -1.5,
+        "y": -13.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 19.0,
+        "y": 35.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 1.0,
+        "y": 35.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": -90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 19.0,
+        "y": 36.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 1.0,
+        "y": 36.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": -90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 18.0,
+        "y": -3.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 15.5,
+        "y": -4.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.95,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 15.5,
+        "y": -4.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.95,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 15.5,
+        "y": -2.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 14.0,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 2.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 14.0,
+        "y": -3.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 2.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 18.0,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 13.5,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.95,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 16.0,
+        "y": -1.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 5.0,
+        "width": 5.0,
+        "shield_temp": "-Infinity"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 4.5,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Orange",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 2.0,
+        "y": -3.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 4.5,
+        "y": -4.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.95,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 4.5,
+        "y": -4.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.95,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 4.5,
+        "y": -2.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 6.0,
+        "y": -3.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 2.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 6.0,
+        "y": -3.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 2.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 2.0,
+        "y": -3.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 1.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 6.5,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.95,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 4.5,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Orange",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 4.0,
+        "y": -1.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 5.0,
+        "width": 5.0,
+        "shield_temp": "-Infinity"
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 15.0,
+        "y": -5.5
       },
       "o": {
         "x": 1.0,
@@ -6375,7 +5525,7 @@
       "n": "Strut",
       "p": {
         "x": 5.0,
-        "y": 33.0
+        "y": -5.5
       },
       "o": {
         "x": -1.0,
@@ -6388,10 +5538,58 @@
       }
     },
     {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 15.5,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Orange",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 15.5,
+        "y": -3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Orange",
+        "shape_tex": "_"
+      }
+    },
+    {
       "n": "Strut",
       "p": {
         "x": 14.5,
-        "y": 34.0
+        "y": -4.5
       },
       "o": {
         "x": 1.0,
@@ -6407,162 +5605,12 @@
       "n": "Strut",
       "p": {
         "x": 5.5,
-        "y": 34.0
+        "y": -4.5
       },
       "o": {
         "x": 1.0,
         "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 13.5,
-        "y": 35.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 6.5,
-        "y": 35.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 6.5,
-        "y": 35.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Wheel Medium",
-      "p": {
-        "x": 3.0,
-        "y": 34.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "wheel_on": true
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 3.5,
-        "y": 34.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 4.5,
-        "y": 34.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Wheel Medium",
-      "p": {
-        "x": 3.5,
-        "y": 34.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "wheel_on": true
-      }
-    },
-    {
-      "n": "Wheel Medium",
-      "p": {
-        "x": 4.0,
-        "y": 34.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "wheel_on": true
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 3.0,
-        "y": 35.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
+        "z": -90.0
       },
       "t": "-Infinity",
       "N": {
@@ -6572,27 +5620,11 @@
     {
       "n": "Strut",
       "p": {
-        "x": 5.0,
-        "y": 34.5
+        "x": 14.0,
+        "y": -4.5
       },
       "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 6.0,
-        "y": 35.0
-      },
-      "o": {
-        "x": -1.0,
+        "x": 1.0,
         "y": 1.0,
         "z": 0.0
       },
@@ -6605,7 +5637,7 @@
       "n": "Strut",
       "p": {
         "x": 6.0,
-        "y": 34.5
+        "y": -4.5
       },
       "o": {
         "x": -1.0,
@@ -6615,234 +5647,6 @@
       "t": "-Infinity",
       "N": {
         "size": 1.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 5.0,
-        "y": 35.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 16.5,
-        "y": 34.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Wheel Medium",
-      "p": {
-        "x": 17.0,
-        "y": 34.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "wheel_on": true
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 15.5,
-        "y": 34.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Wheel Medium",
-      "p": {
-        "x": 16.5,
-        "y": 34.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "wheel_on": true
-      }
-    },
-    {
-      "n": "Wheel Medium",
-      "p": {
-        "x": 16.0,
-        "y": 34.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "wheel_on": true
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 17.0,
-        "y": 35.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 15.0,
-        "y": 34.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 14.0,
-        "y": 35.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 14.0,
-        "y": 34.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 1.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 15.0,
-        "y": 35.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 13.5,
-        "y": 35.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.5,
-        "sep_force_multiplier": 0.5
-      }
-    },
-    {
-      "n": "Landing Leg Big",
-      "p": {
-        "x": 15.0,
-        "y": 33.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 180.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state": 1.0,
-        "state_target": 1.0
-      }
-    },
-    {
-      "n": "Landing Leg Big",
-      "p": {
-        "x": 5.0,
-        "y": 33.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": -1.0,
-        "z": 180.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state": 1.0,
-        "state_target": 1.0
       }
     }
   ],
@@ -6850,116 +5654,117 @@
     {
       "stageId": 1,
       "partIndexes": [
-        235,
-        231,
-        241,
-        233,
-        229,
-        18,
-        106,
-        19,
-        234,
-        230,
-        232,
-        242,
-        44,
-        240,
-        238,
-        239,
-        237,
-        228,
-        236,
-        227,
-        144,
-        145,
-        358,
-        382,
-        383
+        194,
+        191,
+        200,
+        192,
+        258,
+        193,
+        190,
+        257,
+        201,
+        199,
+        197,
+        198,
+        196,
+        259,
+        195,
+        189,
+        117,
+        118,
+        292,
+        302,
+        286,
+        296
       ]
     },
     {
       "stageId": 2,
       "partIndexes": [
-        104,
-        139,
-        120,
-        78,
+        87,
+        112,
+        93,
+        61,
+        31,
+        192,
+        200,
+        201,
+        194,
+        195,
+        189,
+        191,
+        190,
+        196,
+        193,
+        199,
+        198,
+        257,
+        259,
+        258,
+        197,
         45,
-        233,
-        241,
-        242,
-        235,
-        236,
-        227,
-        231,
-        230,
-        237,
-        234,
-        240,
-        239,
-        232,
-        228,
-        229,
-        238,
-        60,
-        58
+        43
       ]
     },
     {
       "stageId": 3,
       "partIndexes": [
-        240,
-        239,
-        242,
-        236,
-        237,
-        238,
-        241
+        199,
+        198,
+        201,
+        195,
+        196,
+        197,
+        200,
+        259,
+        257
       ]
     },
     {
       "stageId": 4,
       "partIndexes": [
-        238,
-        236,
-        242
+        197,
+        195,
+        201,
+        259,
+        257
       ]
     },
     {
       "stageId": 5,
       "partIndexes": [
-        118,
-        63,
-        104,
-        120
+        91,
+        48,
+        87,
+        93
       ]
     },
     {
       "stageId": 6,
       "partIndexes": [
-        118,
-        63
+        91,
+        48
       ]
     },
     {
       "stageId": 7,
       "partIndexes": [
-        41,
-        42
+        29,
+        30
       ]
     },
     {
       "stageId": 8,
       "partIndexes": [
-        74,
-        75
+        59,
+        60
       ]
     },
     {
       "stageId": 9,
       "partIndexes": [
-        190,
-        224
+        154,
+        186
       ]
     }
   ],
