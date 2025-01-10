@@ -1,0 +1,366 @@
+[08:37:33 Log]: NotificationsReceiver Awake (debug: no)
+
+[08:37:33 Log]: NotificationsReceiver Awake (debug: no)
+
+[08:37:33 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker.Write (System.String GMPLNLBGPDF, System.Boolean ENPLDJFNIDB) (at <00000000000000000000000000000000>:0)
+SalesSystem.HDFOGLFLMMA () (at <00000000000000000000000000000000>:0)
+SFS.Variables.Obs`1[T].JFLBIHLFOMJ (SFS.Variables.Obs`1[T] PGMEDCDABDD, System.Action FHIPONEEGCB) (at <00000000000000000000000000000000>:0)
+SalesSystem.AAMHGAGBMAG () (at <00000000000000000000000000000000>:0)
+SalesSystem.Initialize () (at <00000000000000000000000000000000>:0)
+SFS.UI.HomeManager.Start () (at <00000000000000000000000000000000>:0)
+
+[08:37:33 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker.Write (System.String GMPLNLBGPDF, System.Boolean ENPLDJFNIDB) (at <00000000000000000000000000000000>:0)
+SalesSystem.HDFOGLFLMMA () (at <00000000000000000000000000000000>:0)
+SFS.Variables.Obs`1[T].JFLBIHLFOMJ (SFS.Variables.Obs`1[T] PGMEDCDABDD, System.Action FHIPONEEGCB) (at <00000000000000000000000000000000>:0)
+SalesSystem.AAMHGAGBMAG () (at <00000000000000000000000000000000>:0)
+SalesSystem.Initialize () (at <00000000000000000000000000000000>:0)
+SFS.UI.HomeManager.Start () (at <00000000000000000000000000000000>:0)
+
+[08:37:33 Log]: Initializing Gaming Services
+
+[08:37:33 Log]: Initializing Gaming Services
+
+[08:37:33 Log]: Initialized Gaming Services
+
+[08:37:33 Log]: Initialized Gaming Services
+
+[08:37:33 Log]: Initializing UnityPurchases
+
+[08:37:33 Log]: Initializing UnityPurchases
+
+[08:37:33 Log]: UnityPurchasing.Initialize called
+
+[08:37:33 Log]: UnityPurchasing.Initialize called
+
+[08:37:34 Warning]: Unavailable product expansion_planets_discounted-expansion_planets_discounted
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[08:37:34 Warning]: Unavailable product expansion_planets_discounted-expansion_planets_discounted
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[08:37:34 Log]: Store initialized
+FGFAJLLDHOC:UnityEngine.Purchasing.IStoreListener.OnInitialized(IStoreController, IExtensionProvider)
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[08:37:34 Log]: Store initialized
+FGFAJLLDHOC:UnityEngine.Purchasing.IStoreListener.OnInitialized(IStoreController, IExtensionProvider)
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[08:37:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+PopupManager.PJDCBHLIELK (PopupManager+FDDHCFLAIFB DEODAHNELJJ, System.Single PGNMGEIGMNA, System.Boolean GEIKEFLDLKP) (at <00000000000000000000000000000000>:0)
+PopupManager.Initialize () (at <00000000000000000000000000000000>:0)
+OIFFKKPPAEC[T].DGPICBCIGFE (T JAFADCCLKKP) (at <00000000000000000000000000000000>:0)
+SFS.UI.Button.FMNJIJKFLFM (INMECIAIOAG JAFADCCLKKP) (at <00000000000000000000000000000000>:0)
+SFS.Input.InputManager.EODCDMJHNDK (System.Int32 FPLHIFDDPDJ, ECAIJKGJBOH CEAHGPEHFEH, NIKMBBGFOHJ DNEGBBELDEN) (at <00000000000000000000000000000000>:0)
+SFS.Input.InputManager.ALIMKDKFLKM () (at <00000000000000000000000000000000>:0)
+
+[08:37:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+PopupManager.PJDCBHLIELK (PopupManager+FDDHCFLAIFB DEODAHNELJJ, System.Single PGNMGEIGMNA, System.Boolean GEIKEFLDLKP) (at <00000000000000000000000000000000>:0)
+PopupManager.Initialize () (at <00000000000000000000000000000000>:0)
+OIFFKKPPAEC[T].DGPICBCIGFE (T JAFADCCLKKP) (at <00000000000000000000000000000000>:0)
+SFS.UI.Button.FMNJIJKFLFM (INMECIAIOAG JAFADCCLKKP) (at <00000000000000000000000000000000>:0)
+SFS.Input.InputManager.EODCDMJHNDK (System.Int32 FPLHIFDDPDJ, ECAIJKGJBOH CEAHGPEHFEH, NIKMBBGFOHJ DNEGBBELDEN) (at <00000000000000000000000000000000>:0)
+SFS.Input.InputManager.ALIMKDKFLKM () (at <00000000000000000000000000000000>:0)
+
+[08:37:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:37:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:37:48 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:37:48 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:37:58 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:37:58 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:48 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:48 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:58 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:38:58 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:48 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:48 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:58 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:39:58 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:40:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:40:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:40:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:40:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:40:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:40:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:03 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:03 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:03 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:03 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:03 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:03 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:38 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:48 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:48 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:58 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:41:58 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:42:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:42:08 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:42:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:42:18 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:42:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[08:42:28 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
