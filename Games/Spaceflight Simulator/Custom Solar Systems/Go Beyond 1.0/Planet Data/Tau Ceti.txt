@@ -1,0 +1,73 @@
+﻿●BASE_DATA●
+{
+    "name": "Tau Ceti",
+    "radius": 15300000.0,
+    "gravity": 87700000.0,
+    "timewarpHeight": 80000.0,
+    "mapColor": {
+        "r": 1.07,
+        "g": 0.66,
+        "b": 0.43
+    },
+    "mapResolution": 500,
+    "hideNameMultiplier": 80.0
+}
+
+●ATMOSPHERE_DATA●
+{
+    "PHYSICS": {
+        "height": 7000000.0,
+        "density": 0.9,
+        "curve": 23.0
+    },
+    "GRADIENT": {
+        "positionZ": 0,
+        "gradientHeight": 9000000000.0,
+        "gradientTexture": "Atmo_Sun"
+    },
+    "CLOUDS": {
+        "cloudTexture": "None",
+        "startHeight": 0,
+        "height": 0,
+        "repeatX": 0.0,
+        "alpha": 0.0,
+        "cloudVelocity": 0.0
+    },
+    "FOG": {
+        "keys": []
+    }
+}
+
+●ORBIT_DATA●
+{
+    "parent": "Saggitarius A",
+    "orbitHeight": 65000000000000.0,
+    "multiplierSOI": 0.001,
+    "orbitLineResolution": 100
+}
+
+●POST_PROCESSING●
+{
+    "keys": [
+        {
+            "height": 0.0,
+            "shadowIntensity": 1.399999976158142,
+            "hueShift": 0.0,
+            "saturation": 0.949999988079071,
+            "contrast": 1.100000023841858,
+            "red": 1.0599999785423279,
+            "green": 0.9800000190734863,
+            "blue": 1.0
+        },
+        {
+            "height": 100000.0,
+            "shadowIntensity": 1.649999976158142,
+            "hueShift": 0.0,
+            "saturation": 0.949999988079071,
+            "contrast": 1.100000023841858,
+            "red": 1.0599999785423279,
+            "green": 0.9800000190734863,
+            "blue": 1.0
+        }
+    ]
+}

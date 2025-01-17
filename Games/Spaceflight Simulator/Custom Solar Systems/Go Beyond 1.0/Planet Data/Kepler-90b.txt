@@ -1,0 +1,129 @@
+﻿●BASE_DATA●
+{
+    "name": "Kepler-90b",
+    "radius": 23000.0,
+    "gravity": 2.25,
+    "timewarpHeight": 7500.0,
+    "mapColor": {
+        "r": 0.41034483909606936,
+        "g": 0.17267935276031496,
+        "b": 0.0495005965232849
+    },
+    "mapResolution": 1000,
+    "hideNameMultiplier": 60.0
+}
+●ATMOSPHERE_DATA●
+{
+    "PHYSICS": {
+        "height": 7500.0,
+        "density": 0.001,
+        "curve": 9.0
+    },
+    "GRADIENT": {
+        "positionZ": 4000,
+        "gradientHeight": 8000.0,
+        "gradientTexture": "Atmo__Trappist1D"
+    },
+   "CLOUDS": {
+        "cloudTexture": "Earth_Clouds",
+        "startHeight": 400,
+        "height": 3750,
+        "repeatX": 0.10,
+        "alpha": 1.2,
+        "cloudVelocity": 3.0
+    },
+    "FOG": {
+        "keys": [
+            {
+                "r": 0.6823529601097107,
+                "g": 0.4745098352432251,
+                "b": 0.4078431725502014,
+                "a": 0.0,
+                "distance": 0.0
+            },
+            {
+                "r": 0.6823529601097107,
+                "g": 0.47435295581817629,
+                "b": 0.40705883502960207,
+                "a": 0.30000001192092898,
+                "distance": 15000.0
+            }
+        ]
+    }
+}
+
+●TERRAIN_DATA●
+{
+    "TERRAIN_TEXTURE_DATA": {
+        "planetTexture": "K90B",
+        "planetTextureCutout": 1.0,
+        "surfaceTextureA": "Soft_Rocks",
+        "surfaceTextureSizeA": {
+            "x": 20.0,
+            "y": 8.0
+        },
+        "surfaceTextureB": "Dark_Dust",
+        "surfaceTextureSizeB": {
+            "x": 30.0,
+            "y": 14.0
+        },
+        "terrainTexture": "Hard_Rocks",
+        "terrainTextureSize": {
+            "x": 280.0,
+            "y": 145.0
+        },
+        "surfaceLayerSize": 30.0,
+        "minFade": 0.0,
+        "maxFade": 1.0,
+        "shadowIntensity": 1.0,
+        "shadowHeight": 10.0
+    },
+
+    "terrainFromula": [
+     	"OUTPUT = AddHeightMap(Craters, 5, 150, Curve1)",
+		"OUTPUT = AddHeightMap(Craters, 100, 30, Curve5)",
+		"OUTPUT = AddHeightMap(Perlin, 125, 15, Curve1)",
+		"OUTPUT = AddHeightMap( Perlin, 185, 3, Curve1)",
+      	"OUTPUT = AddHeightMap(Craters, 50, -20, Curve1)"
+    ],
+
+    "textureFormula": [],
+    "DETAIL_LEVELS": [
+        {
+            "loadDistance": 0.0,
+            "verticeSize": 1500
+        },
+        {
+            "loadDistance": 15000.0,
+            "verticeSize": 300
+        },
+        {
+            "loadDistance": 5000.0,
+            "verticeSize": 120
+        },
+        {
+            "loadDistance": 1100.0,
+            "verticeSize": 40
+        },
+        {
+            "loadDistance": 600.0,
+            "verticeSize": 8
+        },
+        {
+            "loadDistance": 250.0,
+            "verticeSize": 2
+        },
+        {
+            "loadDistance": 50.0,
+            "verticeSize": 2
+        }
+    ]
+}
+
+●ORBIT_DATA●
+{
+    "parent": "Kepler-90",
+    "orbitHeight": 300000000,
+    "multiplierSOI": 1.25,
+    "orbitLineResolution": 100
+}

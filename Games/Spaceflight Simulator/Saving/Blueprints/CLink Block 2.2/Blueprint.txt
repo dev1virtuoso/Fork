@@ -1,0 +1,3512 @@
+{
+  "center": 10.0,
+  "parts": [
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 85.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 85.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 91.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 91.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 95.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 95.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 79.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 79.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 6.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 68.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 78.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 78.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 78.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 81.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 83.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 83.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 83.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 86.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 88.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 88.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 88.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 91.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 91.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 91.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 93.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 93.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 93.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 78.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 78.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 79.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 78.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 80.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 81.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 83.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 83.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 84.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 83.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 85.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 86.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 88.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 88.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 89.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 88.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 91.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 90.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 91.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 91.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 93.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 93.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 94.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 93.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 73.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 76.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 76.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 73.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 74.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 76.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 75.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 76.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 76.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 76.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 68.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 68.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 68.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 71.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 71.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 68.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 68.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 69.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 68.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 71.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 70.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 71.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 71.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 71.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 78.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 78.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 78.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 83.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 83.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 83.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 88.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 88.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 88.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 91.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 91.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 91.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 93.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 93.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 93.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 78.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 78.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 79.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 78.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 80.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 81.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 83.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 83.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 84.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 83.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 85.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 86.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 88.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 88.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 89.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 88.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 91.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 90.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 91.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 91.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 93.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 93.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 94.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 93.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 76.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 76.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 76.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 76.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 73.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 74.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 73.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 75.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 76.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 76.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 68.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 71.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 68.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 68.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 71.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 71.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 71.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 68.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 69.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 68.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 70.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 71.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 71.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 96.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 96.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 96.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 96.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 95.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 96.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 96.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 96.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 96.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 96.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 96.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 95.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 96.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 96.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 10.0,
+        "y": 100.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.0,
+        "y": 99.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 9.5,
+        "y": 100.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 10.5,
+        "y": 100.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 10.0,
+        "y": 100.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 99.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 10.0,
+        "y": 99.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 4.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.0,
+        "y": 98.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.5,
+        "y": 98.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 8.5,
+        "y": 98.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 8.0,
+        "y": 98.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 98.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 8.5,
+        "y": 99.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 8.5,
+        "y": 98.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 11.0,
+        "y": 98.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5,
+        "y": 98.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 11.5,
+        "y": 98.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 12.0,
+        "y": 98.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 98.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 11.5,
+        "y": 99.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Placeholder ION",
+      "p": {
+        "x": 11.5,
+        "y": 98.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    }
+  ],
+  "stages": [
+    {
+      "stageId": 1,
+      "partIndexes": [
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        21,
+        22,
+        24,
+        25,
+        27,
+        28,
+        30,
+        31,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        45,
+        46,
+        47,
+        49,
+        50,
+        51,
+        53,
+        54,
+        55,
+        57,
+        58,
+        59,
+        61,
+        62,
+        64,
+        66,
+        67,
+        68,
+        70,
+        71,
+        72,
+        73,
+        75,
+        76,
+        78,
+        80,
+        81,
+        82,
+        84,
+        85,
+        86,
+        87,
+        89,
+        90,
+        92,
+        93,
+        95,
+        96,
+        98,
+        99,
+        101,
+        102,
+        104,
+        105,
+        107,
+        108,
+        110,
+        111,
+        112,
+        114,
+        115,
+        116,
+        118,
+        119,
+        120,
+        122,
+        123,
+        124,
+        126,
+        127,
+        128,
+        130,
+        131,
+        132,
+        134,
+        135,
+        136,
+        139,
+        140,
+        142,
+        143,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        153,
+        154,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        165,
+        166,
+        168,
+        169,
+        170,
+        172,
+        173,
+        175,
+        176,
+        177,
+        179,
+        180,
+        182,
+        183,
+        184,
+        188,
+        189,
+        191,
+        192,
+        193,
+        195,
+        196,
+        198,
+        199,
+        200
+      ]
+    },
+    {
+      "stageId": 2,
+      "partIndexes": []
+    },
+    {
+      "stageId": 3,
+      "partIndexes": []
+    }
+  ],
+  "rotation": 0.0,
+  "offset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "interiorView": true
+}

@@ -1,0 +1,86 @@
+[04:11:02 Log]: NotificationsReceiver Awake (debug: no)
+
+[04:11:02 Log]: NotificationsReceiver Awake (debug: no)
+
+[04:11:02 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker.Write (System.String GMPLNLBGPDF, System.Boolean ENPLDJFNIDB) (at <00000000000000000000000000000000>:0)
+SalesSystem.HDFOGLFLMMA () (at <00000000000000000000000000000000>:0)
+SFS.Variables.Obs`1[T].JFLBIHLFOMJ (SFS.Variables.Obs`1[T] PGMEDCDABDD, System.Action FHIPONEEGCB) (at <00000000000000000000000000000000>:0)
+SalesSystem.AAMHGAGBMAG () (at <00000000000000000000000000000000>:0)
+SalesSystem.Initialize () (at <00000000000000000000000000000000>:0)
+SFS.UI.HomeManager.Start () (at <00000000000000000000000000000000>:0)
+
+[04:11:02 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker.Write (System.String GMPLNLBGPDF, System.Boolean ENPLDJFNIDB) (at <00000000000000000000000000000000>:0)
+SalesSystem.HDFOGLFLMMA () (at <00000000000000000000000000000000>:0)
+SFS.Variables.Obs`1[T].JFLBIHLFOMJ (SFS.Variables.Obs`1[T] PGMEDCDABDD, System.Action FHIPONEEGCB) (at <00000000000000000000000000000000>:0)
+SalesSystem.AAMHGAGBMAG () (at <00000000000000000000000000000000>:0)
+SalesSystem.Initialize () (at <00000000000000000000000000000000>:0)
+SFS.UI.HomeManager.Start () (at <00000000000000000000000000000000>:0)
+
+[04:11:02 Log]: Initializing Gaming Services
+
+[04:11:02 Log]: Initializing Gaming Services
+
+[04:11:02 Log]: Initialized Gaming Services
+
+[04:11:02 Log]: Initialized Gaming Services
+
+[04:11:03 Warning]: Material Font Material doesn't have _Stencil property
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+
+[04:11:03 Warning]: Material Font Material doesn't have _Stencil property
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+
+[04:11:03 Log]: Initializing UnityPurchases
+
+[04:11:03 Log]: Initializing UnityPurchases
+
+[04:11:03 Log]: UnityPurchasing.Initialize called
+
+[04:11:03 Log]: UnityPurchasing.Initialize called
+
+[04:11:03 Warning]: Unavailable product expansion_planets_discounted-expansion_planets_discounted
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[04:11:03 Warning]: Unavailable product expansion_planets_discounted-expansion_planets_discounted
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[04:11:03 Log]: Store initialized
+FGFAJLLDHOC:UnityEngine.Purchasing.IStoreListener.OnInitialized(IStoreController, IExtensionProvider)
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[04:11:03 Log]: Store initialized
+FGFAJLLDHOC:UnityEngine.Purchasing.IStoreListener.OnInitialized(IStoreController, IExtensionProvider)
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[04:11:29 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[04:11:29 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[04:11:29 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[04:11:29 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[04:11:29 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
+[04:11:29 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker+<>c.JGJPEMOFKBB (TimeTracker+Data a) (at <00000000000000000000000000000000>:0)
+TimeTracker.JHHIELKIAFD (System.Action`1[T] PGMEDCDABDD) (at <00000000000000000000000000000000>:0)
+TimeTracker.Update () (at <00000000000000000000000000000000>:0)
+
