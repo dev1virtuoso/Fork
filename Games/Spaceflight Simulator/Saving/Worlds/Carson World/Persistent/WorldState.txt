@@ -1,1 +1,1 @@
-{"worldTime":832732925.45616925,"timewarpPhase":0,"mapView":true,"mapPosition":{"x":-268.82776468385077,"y":316.29782595227942,"z":3802659.6266865931},"mapAddress":"Rocket:479","targetAddress":"null","playerAddress":"Rocket:479","cameraDistance":651.4516}
+{"worldTime":832732958.04641807,"timewarpPhase":0,"mapView":false,"mapPosition":{"x":497499.71493362542,"y":-272507.82695741433,"z":4216106.5447625415},"mapAddress":"Planet:Earth","targetAddress":"null","playerAddress":"Rocket:515","cameraDistance":13.5932837}

@@ -1,0 +1,56 @@
+[06:39:17 Log]: NotificationsReceiver Awake (debug: no)
+
+[06:39:17 Log]: NotificationsReceiver Awake (debug: no)
+
+[06:39:17 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker.Write (System.String GMPLNLBGPDF, System.Boolean ENPLDJFNIDB) (at <00000000000000000000000000000000>:0)
+SalesSystem.HDFOGLFLMMA () (at <00000000000000000000000000000000>:0)
+SFS.Variables.Obs`1[T].JFLBIHLFOMJ (SFS.Variables.Obs`1[T] PGMEDCDABDD, System.Action FHIPONEEGCB) (at <00000000000000000000000000000000>:0)
+SalesSystem.AAMHGAGBMAG () (at <00000000000000000000000000000000>:0)
+SalesSystem.Initialize () (at <00000000000000000000000000000000>:0)
+SFS.UI.HomeManager.Start () (at <00000000000000000000000000000000>:0)
+
+[06:39:17 Exception]: NullReferenceException: Object reference not set to an instance of an object.
+TimeTracker.Write (System.String GMPLNLBGPDF, System.Boolean ENPLDJFNIDB) (at <00000000000000000000000000000000>:0)
+SalesSystem.HDFOGLFLMMA () (at <00000000000000000000000000000000>:0)
+SFS.Variables.Obs`1[T].JFLBIHLFOMJ (SFS.Variables.Obs`1[T] PGMEDCDABDD, System.Action FHIPONEEGCB) (at <00000000000000000000000000000000>:0)
+SalesSystem.AAMHGAGBMAG () (at <00000000000000000000000000000000>:0)
+SalesSystem.Initialize () (at <00000000000000000000000000000000>:0)
+SFS.UI.HomeManager.Start () (at <00000000000000000000000000000000>:0)
+
+[06:39:17 Log]: Initializing Gaming Services
+
+[06:39:17 Log]: Initializing Gaming Services
+
+[06:39:17 Log]: Initialized Gaming Services
+
+[06:39:17 Log]: Initialized Gaming Services
+
+[06:39:18 Log]: Initializing UnityPurchases
+
+[06:39:18 Log]: Initializing UnityPurchases
+
+[06:39:18 Log]: UnityPurchasing.Initialize called
+
+[06:39:18 Log]: UnityPurchasing.Initialize called
+
+[06:39:18 Warning]: Material Font Material doesn't have _Stencil property
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+
+[06:39:18 Warning]: Material Font Material doesn't have _Stencil property
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+
+[06:39:18 Warning]: Unavailable product expansion_planets_discounted-expansion_planets_discounted
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[06:39:18 Warning]: Unavailable product expansion_planets_discounted-expansion_planets_discounted
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[06:39:18 Log]: Store initialized
+FGFAJLLDHOC:UnityEngine.Purchasing.IStoreListener.OnInitialized(IStoreController, IExtensionProvider)
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
+[06:39:18 Log]: Store initialized
+FGFAJLLDHOC:UnityEngine.Purchasing.IStoreListener.OnInitialized(IStoreController, IExtensionProvider)
+UnityEngine.Purchasing.Extension.UnityUtil:Update()
+
