@@ -1,0 +1,47 @@
+#!/bin/sh
+
+# Upload all SLIP files
+
+echo Uploading SLIP-fap
+for file in eliza/src/SLIP/SLIP-fap/*.fap
+do
+    upload SLIP $file
+done
+
+echo Uploading SLIP-core
+for file in eliza/src/SLIP/SLIP-core/*.mad
+do
+    upload SLIP $file
+done
+
+echo Uploading SLIP-eliza
+for file in eliza/src/SLIP/SLIP-eliza/*.mad
+do
+    upload SLIP $file
+done
+
+echo Uploading SLIP-duplicates
+for file in eliza/src/SLIP/SLIP-duplicates/*.fap
+do
+    upload SLIP $file
+done
+
+echo Uploading SLIP-reconstructed
+for file in eliza/src/SLIP/SLIP-reconstructed/*.mad
+do
+    upload SLIP $file
+done
+
+echo Uploading SLIP-tests
+for file in eliza/src/SLIP/SLIP-tests/*.mad
+do
+    upload SLIP $file
+done
+
+echo Uploading SLIP runcoms
+for file in eliza/src/SLIP/runcom/*.runcom
+do
+    upload SLIP $file
+done
+
+cleanupctss
